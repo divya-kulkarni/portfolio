@@ -19,8 +19,15 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx"
+    // "typeRoots": [
+    //   "/src/types.d.ts"
+    // ]
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/App.test.tsx"
   ]
 }
