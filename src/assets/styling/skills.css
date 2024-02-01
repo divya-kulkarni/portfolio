@@ -1,0 +1,24 @@
+.skills {
+    background-color: #252422;
+    color: #fffcf2;
+    display: flexbox;
+    align-items: start;
+    padding: 1rem;
+}
+  
+  .skills-container span {
+    width: 3em;
+    height: 3em;
+    display: inline-flex;
+    border-radius: 50%;
+    margin: 0.5rem;
+    line-height: 1;
+}
+  
+  .skills-container a img {
+    width: 40%;
+  }
+
+.skills h4 {
+    padding-bottom: 0.5 rem;
+}
