@@ -27,6 +27,8 @@ export const Skills = () => {
                     <span><img src={navIcon3} alt=""></img></span>
                     <span><img src={navIcon3} alt=""></img></span>
                     <span><img src={navIcon3} alt=""></img></span>
+                    <span><img src={navIcon3} alt=""></img></span>
+                    <span><img src={navIcon3} alt=""></img></span>
                 </div>
             </div>
         </div>

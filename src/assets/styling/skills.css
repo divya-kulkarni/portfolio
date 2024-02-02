@@ -2,17 +2,18 @@
     background-color: #252422;
     color: #fffcf2;
     display: flexbox;
-    align-items: start;
+    align-items: flex-start;
     padding: 1rem;
+    text-align: center;
 }
   
   .skills-container span {
     width: 3em;
     height: 3em;
     display: inline-flex;
-    border-radius: 50%;
     margin: 0.5rem;
     line-height: 1;
+    align-items: flex-start;
 }
   
   .skills-container a img {
