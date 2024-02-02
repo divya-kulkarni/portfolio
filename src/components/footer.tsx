@@ -1,8 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
 import '../assets/styling/footer.css';
-import navIcon1 from '../assets/images/nav-icon1.svg';
-import navIcon2 from '../assets/images/nav-icon2.svg';
-import navIcon3 from '../assets/images/nav-icon3.svg';
+import linkedin from '../assets/images/social/linkedin.svg';
+import navIcon3 from '../assets/images/social/nav-icon3.svg';
+import email from '../assets/images/social/gmail.svg';
+import github from '../assets/images/social/github.svg';
 
 export const Footer = () => {
     return (
@@ -19,9 +20,9 @@ export const Footer = () => {
                 <Row>
                     <Col>   
                         <div className="social">
-                            <a href="#linkedin"><img src={navIcon1} alt=""></img></a>
-                            <a href="#github"><img src={navIcon2} alt=""></img></a>
-                            <a href="#email"><img src={navIcon3} alt=""></img></a>
+                            <a href="https://linkedin.com/in/div-kulkarni" rel="noopener noreferrer" target="_blank"><img src={linkedin} alt=""></img></a>
+                            <a href="https://github.com/divya-kulkarni" rel="noopener noreferrer" target="_blank"><img src={github} alt=""></img></a>
+                            <a href="#email"><img src={email} alt=""></img></a>
                         </div>
                     </Col>
                 </Row>
