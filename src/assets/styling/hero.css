@@ -1,49 +1,73 @@
 .hero {
-    margin-top: 0;
-    padding: 7rem 0.5rem;
+  margin-top: 0;
+  padding: 7rem 0;
+  text-align: center;
 }
 
 .hero-name {
   font-weight: 700;
   letter-spacing: 0.8px;
-  padding: 8px 10px;
+  padding: 1rem 0;
   font-size: clamp(0.8rem, 1.2rem, 3rem);
-  margin-bottom: 1rem;
   display: inline-block;
 }
 
 .hero h1 {
-    font-size: clamp(3.5rem, 1rem + 10vw, 5rem);
-    font-weight: 700;
-    letter-spacing: 0.1rem;
-    line-height: 1;
-    margin-bottom: 1rem;
-    display: block;
-    color: black !important;
+  font-size: clamp(3.5rem, 1rem + 10vw, 5rem);
+  font-family: 'Times New Roman', Times, serif !important;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+  display: block;
+  color: black !important;
+  overflow-y: hidden;
 }
 
-.hero button {
-    font-weight: 700;
-    color: #333;
-    border: 0.1em solid #333;
-    padding: 0.7em 1em;
-    font-size: 1.2em;
-    position: relative;
-    transition: 0.3s ease-in-out;
-    z-index: 1;
-    box-sizing: border-box;
-    display: inline-block;
-    text-align: center;
+.hero p {
+  font-size: clamp(0.5rem, 1rem, 2rem);
+  padding: 0.5rem 0;;
+}
+
+.hero-action {
+  /* display: flex; */
+  /* align-items: center; */
+  justify-content: center;
+  padding: 0.5rem 0;;
+}
+
+.action-btn {
+  font-weight: 700;
+  color: #333;
+  border: 0.1em solid #333;
+  padding: 0.7em 1em;
+  font-size: 1.2em;
+  transition: 0.3s ease-in-out;
+  z-index: 1;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin:0 0.5em 0.3em 0;
+  border-radius:0.12em;
+  flex: 1;
   }
 
-  .hero button:hover {
+  .action-btn:hover {
     color: #fff;
     background-color: #333;
   }
 
-  .contact-button {
-    margin-left: 1em;
-  }
+    a.action-btn:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+    }
+    @media all and (max-width:30em){
+    a.action-btn{
+    display:block;
+    margin:0.4em auto;
+    }
+    }
 
   .hero-img-container {
     width: clamp(10rem, 20rem, 35rem);
@@ -63,24 +87,4 @@
  span.navbar-text {
   display: flex;
   align-items: center;
-}
-
-.social {
-  display: inline-block;
-  padding: 1rem 0;
-}
-
-.social a {
-  width: 4em;
-  height: 4em;
-  background: rgba(42, 40, 40, 0.699);
-  display: inline-flex;
-  border-radius: 50%;
-  margin-right: 0.5rem;
-  justify-content: center;
-  line-height: 1;
-}
-
-.social a img {
-  width: 45%;
 }
