@@ -6,6 +6,7 @@ nav.navbar {
     z-index: 9999;
     transition: 0.32 ease-in-out;
     background-color: #ffffff !important;
+    text-align: center;
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
