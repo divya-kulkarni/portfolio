@@ -1,15 +1,7 @@
 .skills {
-    background-color: #403d39;
-    color: #fffcf2;
-    padding: 1rem;
-    
-}
-  
-.skills-container span {
-  display: inline-flex;
-  margin: 0.5rem;
-  line-height: 1;
-  align-items: center;
+  background-color: #403d39;
+  color: #fffcf2;
+  padding: 1rem;  
 }
 
 .skills img {
@@ -23,14 +15,13 @@
 }
 
 .skills figure {
-    width: fit-content;
-    display: inline-block;
-    /* padding: 0.5rem; */
-    align-content: flex-start;
+  width: fit-content;
+  display: inline-block;
+  align-content: flex-start;
 }
 
 .skills figcaption {
-    font-size: clamp(0.5rem, 0.8rem, 2rem);
-    padding-top: 0.5rem;
-    width: fit-content;
+  font-size: clamp(0.5rem, 0.8rem, 2rem);
+  padding-top: 0.5rem;
+  width: fit-content;
 }
