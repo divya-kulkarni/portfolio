@@ -5,6 +5,8 @@ import { NavBar } from './components/navbar';
 import { Hero } from './components/hero';
 import { Skills } from './components/skills';
 import { Footer } from './components/footer';
+import { Projects } from './components/projects';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <div className='app-container'>
         <Hero />
         <Skills />
+        <Projects />
       </div>
       <Footer />
     </div>
