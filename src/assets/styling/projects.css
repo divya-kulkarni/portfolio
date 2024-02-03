@@ -1,0 +1,37 @@
+.projects {
+    padding: 1rem;
+    margin: 0 !important;
+}
+
+.projects row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 !important;
+}
+
+.project-action {
+    display: inline-flex;
+    text-align: center;
+}
+
+.project-action button {
+    font-weight: 500;
+    padding: 0.3em 1em;
+    font-size: 1em;
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+    box-sizing: border-box;
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 0.5em 0.3em 0;
+    flex: 1;
+}
+
+.project-action button:hover {
+    color: #333;
+    background-color: #fff;
+    border: 0.1em solid #333;
+}
+
