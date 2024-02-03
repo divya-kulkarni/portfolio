@@ -12,7 +12,7 @@ export const NavBar = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
       <Container>
-        <Navbar.Brand href="#home" onClick={(e: React.MouseEvent<HTMLElement>) => handleClickScroll('hero')}>DivyaDev</Navbar.Brand>
+        <Navbar.Brand href="#home" onClick={(e: React.MouseEvent<HTMLElement>) => handleClickScroll('hero')}>Divya Kulkarni</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
