@@ -14,83 +14,87 @@ import jest from '../assets/images/tech/jest.svg';
 
 export const Skills = () => {
     return (
-        <div className="skills" id='skills'>
-            <Container className="skills-container">
-                <Row>
-                    <Col xs={3} sm={2} md={2} lg={1}>
-                        <figure>
-                            <img src={react} alt=""></img>
-                            <figcaption>ReactJS</figcaption>
-                        </figure>
-                    </Col>
-                    <Col xs={3} sm={2} md={2} lg={1}>
-                        <figure>
-                            <img src={html} alt=""></img>
-                            <figcaption>HTML5</figcaption>
-                        </figure>
-                    </Col>
-                    <Col xs={3} sm={2} md={2} lg={1}>
-                        <figure>
-                            <img src={css} alt=""></img>
-                            <figcaption>CSS3</figcaption>
-                        </figure>
-                    </Col >
-                    <Col xs={3} sm={2} md={2} lg={1}>
-                        <figure>
-                            <img src={javascript} alt=""></img>
-                            <figcaption>JavaScript</figcaption>
-                        </figure>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col xs={3} sm={2} md={2} lg={1}>
-                        <figure>
-                            <img src={typescript} alt=""></img>
-                            <figcaption>TypeScript</figcaption>
-                        </figure>
-                    </Col>
-                    <Col xs={3} sm={2} md={2} lg={1}>
-                        <figure>
-                            <img src={node} alt=""></img>
-                            <figcaption>NodeJS</figcaption>
-                        </figure>
-                    </Col>
-                    <Col xs={3} sm={2} md={2} lg={1}>
-                        <figure>
-                            <img src={navIcon3} alt=""></img>
-                            <figcaption>ExppressJS</figcaption>
-                        </figure>
-                    </Col>
-                        <figure>
-                            <img src={mongo} alt=""></img>
-                            <figcaption>MongoDB</figcaption>
-                        </figure>
-                </Row>
-                <Row>
-                    <Col xs={3} sm={2} md={2} lg={1}>
-                        <figure>
-                            <img src={aws} alt=""></img>
-                            <figcaption>AWS</figcaption>
-                        </figure>
-                    </Col>
-                    <Col xs={3} sm={2} md={2} lg={1}>
-                        <figure>
-                            <img src={git} alt=""></img>
-                            <figcaption>Git</figcaption>
-                        </figure>
-                    </Col>
-                    <Col xs={3} sm={2} md={2} lg={1}>
-                        <figure>
-                            <img src={jest} alt=""></img>
-                            <figcaption>Jest</figcaption>
-                        </figure>
-                    </Col>
-                        <figure>
-                            <img src={javascript} alt=""></img>
-                            <figcaption>JavaScript</figcaption>
-                        </figure>
-                </Row>
-            </Container>
+        <div className="skills-container" id="skills">
+            <div className="skills-grid">
+                <h3>My Skills</h3>
+                <Container>
+                    <Row className="justify-content-center">
+                        <Col xs={4} sm={3} md={3} lg={3}>
+                            <figure>
+                                <img src={react} alt="" className="img-fluid"></img>
+                                <figcaption>React</figcaption>
+                            </figure>
+                        </Col>
+                        <Col xs={4} sm={3} md={3} lg={3}>
+                            <figure>
+                                <img src={html} alt="" className="img-fluid"></img>
+                                <figcaption>HTML5</figcaption>
+                            </figure>
+                        </Col>
+                        <Col xs={4} sm={3} md={3} lg={3}>
+                            <figure>
+                                <img src={css} alt="" className="img-fluid"></img>
+                                <figcaption>CSS3</figcaption>
+                            </figure>
+                        </Col >
+                        <Col xs={4} sm={3} md={3} lg={3}>
+                            <figure>
+                                <img src={javascript} alt="" className="img-fluid"></img>
+                                <figcaption>JavaScript</figcaption>
+                            </figure>
+                        </Col>
+                    
+                        <Col xs={4} sm={3} md={3} lg={3}>
+                            <figure>
+                                <img src={typescript} alt="" className="img-fluid"></img>
+                                <figcaption>TypeScript</figcaption>
+                            </figure>
+                        </Col>
+                        <Col xs={4} sm={3} md={3} lg={3}>
+                            <figure>
+                                <img src={node} alt="" className="img-fluid"></img>
+                                <figcaption>Node</figcaption>
+                            </figure>
+                        </Col>
+                        <Col xs={4} sm={3} md={3} lg={3}>
+                            <figure>
+                                <img src={navIcon3} alt="" className="img-fluid"></img>
+                                <figcaption>Express</figcaption>
+                            </figure>
+                        </Col>
+                        <Col xs={4} sm={3} md={3} lg={3}>
+                            <figure>
+                                <img src={mongo} alt="" className="img-fluid"></img>
+                                <figcaption>MongoDB</figcaption>
+                            </figure>
+                        </Col>
+                        <Col xs={4} sm={3} md={3} lg={3}>
+                            <figure>
+                                <img src={aws} alt="" className="img-fluid"></img>
+                                <figcaption>AWS</figcaption>
+                            </figure>
+                        </Col>
+                        <Col xs={4} sm={3} md={3} lg={3}>
+                            <figure>
+                                <img src={git} alt="" className="img-fluid"></img>
+                                <figcaption>Git</figcaption>
+                            </figure>
+                        </Col>
+                        <Col xs={4} sm={3} md={3} lg={3}>
+                            <figure>
+                                <img src={jest} alt="" className="img-fluid"></img>
+                                <figcaption>Jest</figcaption>
+                            </figure>
+                        </Col>
+                        <Col xs={4} sm={3} md={3} lg={3}>
+                            <figure>
+                                <img src={javascript} alt="" className="img-fluid"></img>
+                                <figcaption>JavaScript</figcaption>
+                            </figure>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
         </div>
     );
 };
