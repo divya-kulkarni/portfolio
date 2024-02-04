@@ -1,0 +1,76 @@
+.contact-container {
+    background-color: aqua;
+    display: flex;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.contact-container col {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.contact-container row {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.contact-container h4 {
+    font-size: clamp(1.5rem, 2rem, 3rem);
+    /* font-family: 'Times New Roman', Times, serif !important; */
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+    display: flex;
+    color: black !important;
+    overflow-y: hidden;
+}
+
+.about {
+    background-color: #f9fefe;
+}
+
+.contact {
+    background-color: #eb571a;
+}
+
+.about, .contact {
+    padding: 2rem;
+    min-height: clamp(20rem, 30rem, 40rem);
+    display: block;
+}
+  
+.about-btn {
+    font-weight: 400;
+    color: #333;
+    border: 0.1em solid #333;
+    padding: 0.7em 1em;
+    font-size: clamp(0.8rem, 1rem, 6rem);
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin:0 0.5em 0.3em 0;
+    border-radius:0.12em;
+    flex: 1;
+}
+
+.contact-btn:hover{
+    color: #fff;
+    background-color: #373339;
+}
+
+.about-btn:hover {
+    color: #fff;
+    background-color: #373339;
+}
+
+.form-group {
+    padding: 1rem;
+}
