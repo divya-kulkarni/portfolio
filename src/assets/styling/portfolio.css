@@ -1,0 +1,12 @@
+/* .navigation {
+    scroll-behavior: smooth;
+    scrollbar-color: #f9fefe #1b1c21;
+} */
+
+.resume {
+  color: #ee6030 !important;
+}
+
+.navigation h2 {
+    cursor: pointer;
+}

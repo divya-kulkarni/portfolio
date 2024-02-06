@@ -1,59 +1,44 @@
 .footer {
-    background-color: #373339;
-    color: #f9fefe;
-    width: 100%;
-    overflow-x: hidden;
+  color: #bdbcbb;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .footer-content {
-    text-align: center;
-}
-
-.logo {
-    display: inline-block;
-    margin: 0;
-    width: 100%;
-}
-
-.logo span {
-    display: inline-block;
-    padding-top: 1rem;
-}
-
-.logo img{
-    width: 3em;
-    height: 3em;
-    display: block;
-    margin: 0.5rem;
-    line-height: 1;
-    align-items: center;
-}
-
-.logo p {
-    font-size: clamp(0.5rem, 1rem, 2rem);
-    margin-left: 0;
+  text-align: center;
 }
 
 .social {
-    display: inline-block;
-    padding: 1rem 0;
-  }
-  
+  display: inline-block;
+  padding: 1rem 0;
+}
+
 .social a {
-    display: inline-flex;
-    line-height: 1;
-    padding: 0 0.5em;
-  }
-  
+  display: inline-flex;
+  line-height: 1;
+  padding: 0 0.5em;
+}
+
 .social a img {
-    width: clamp(1em, 2em, 4em);
+  width: clamp(1em, 1.5em, 4em);
 }
 
 .footer-section {
-    display: inline-block;
-    width: 100%;
+  display: inline-block;
+  width: 100%;
 }
 
 .footer-section p {
-    font-size: clamp(0.5rem, 1rem, 2rem);
+  font-size: clamp(0.5rem, 1rem, 2rem);
+}
+
+.waves {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/waves.svg);
+  margin: 0;
+  padding: 0;
 }

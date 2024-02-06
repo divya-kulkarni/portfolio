@@ -1,23 +1,18 @@
-import React from 'react';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { NavBar } from './components/navbar';
-import { Hero } from './components/hero';
-import { Skills } from './components/skills';
-import { Footer } from './components/footer';
-import { Projects } from './components/projects';
-
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Route, Routes } from "react-router-dom";
+import { Portfolio } from "./components/portfolio";
+import { About } from "./components/aboutMe";
+import { Contact } from "./components/contact";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <div className='app-container'>
-        <Hero />
-        <Skills />
-        <Projects />
-      </div>
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Portfolio />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }

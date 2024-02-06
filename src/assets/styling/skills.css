@@ -1,16 +1,10 @@
-.skills-container {
-  background-color: #f9fefe;
-  align-items: center;
+.info-grid {
+  color: #f9fefe;
 }
 
-.skills-grid {
-  background-color: #373339;
+.skills {
   color: #f9fefe;
-  padding: 1rem 0.5rem;
-  /* width: 40rem; */
-  min-height: 40rem;
-  /* min-width: 60rem; */
-  margin: auto;
+  padding: 2rem 0.5rem;
 }
 
 .skills-grid h3 {
@@ -18,22 +12,23 @@
   padding-bottom: 1rem;
 }
 
-.skills-grid img {
-  height: 3em;
+.info-grid img {
+
+  height: clamp(2em, 3em, 5em);
   display: block;
-  width: clamp(1em, 2em, 4em);
+  width: clamp(1em, 2.5em, 4em);
 }
 
-.skills-grid h4 {
+.info-grid h4 {
   padding-bottom: 0.5 rem;
 }
 
-.skills-grid figure {
+.info-grid figure {
   width: fit-content;
   display: inline-block;
 }
 
-.skills-grid figcaption {
+.info-grid figcaption {
   font-size: clamp(0.5rem, 1rem, 5rem);
   padding-top: 0.5rem;
   width: fit-content;

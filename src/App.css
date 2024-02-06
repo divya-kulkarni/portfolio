@@ -3,11 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
+  color: #E9DFCE;
 }
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 75px; 
+  scroll-padding-top: 5rem; 
 }
 
 body {
@@ -15,6 +17,7 @@ body {
   overflow-x: hidden;
   position: relative;
   font-family: 'Poppins', sans-serif !important;
+  background-color: #1e2125 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -38,9 +41,9 @@ button {
   background-color: transparent;
 }
 
-/* .App {
-  text-align: center;
-} */
+Col {
+  margin: 0 ;
+}
 
 .App-logo {
   height: 40vmin;

@@ -14,11 +14,12 @@ import jest from '../assets/images/tech/jest.svg';
 
 export const Skills = () => {
     return (
-        <div className="skills-container" id="skills">
-            <div className="skills-grid">
-                <h3>My Skills</h3>
+            <div className="info-grid" id="skills">
                 <Container>
-                    <Row className="justify-content-center">
+                    <Row>
+                     <h3>My Skills</h3>
+                    <Col className="skills">
+                        <Row>
                         <Col xs={4} sm={3} md={3} lg={3}>
                             <figure>
                                 <img src={react} alt="" className="img-fluid"></img>
@@ -92,9 +93,10 @@ export const Skills = () => {
                                 <figcaption>JavaScript</figcaption>
                             </figure>
                         </Col>
+                        </Row>
+                        </Col>
                     </Row>
                 </Container>
             </div>
-        </div>
     );
 };

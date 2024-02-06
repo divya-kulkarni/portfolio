@@ -5,13 +5,14 @@ nav.navbar {
     top: 0;
     z-index: 9999;
     transition: 0.32 ease-in-out;
-    background-color: #ffffff !important;
+    background-color: #1e2125 !important;
     text-align: center;
+    color: #E9DFCE !important;
 }
 
-nav.navbar .navbar-nav .nav-link.navbar-link {
+nav.navbar .navbar-nav .nav-link .navbar-link {
     font-weight: 500;
-    color: #1d1c1c !important;
+    color: #E9DFCE !important;
     padding: 0 1rem;
     opacity: 0.70;
   }
