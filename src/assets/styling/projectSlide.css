@@ -1,0 +1,23 @@
+.project-slide {
+  padding: 1rem;
+  background-color: pink;
+}
+
+.project-content {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.project {
+  border: 1px solid black;
+  padding: 6rem 4rem;
+}
+
+.project:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.content {
+    font-size: 40px;
+    font-stretch: condensed;
+}

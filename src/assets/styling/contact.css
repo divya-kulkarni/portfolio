@@ -10,8 +10,7 @@
 
 .contact-container h4 {
   font-size: clamp(1.5rem, 3.7rem, 5rem);
-  font-family: Playfair Display, serif;
-  font-weight: 700;
+  font-family: Migra-light-italic;
   letter-spacing: 0.1rem;
   line-height: 1;
   margin: 3rem 0 1rem 0;
@@ -24,10 +23,11 @@
 }
 
 .contact {
-  padding: 4rem 1rem;
+  padding: 4rem 1.5rem;
   min-height: clamp(20rem, 25rem, 40rem);
   display: block;
   margin: auto;
+  max-width: 35rem;
 }
 
 .contact-btn {
@@ -49,8 +49,8 @@
 
 .contact-btn:hover {
   background-color: #1e2125;
-  color: #E9DFCE;
-  border: 0.1em solid #E9DFCE;
+  color: #e9dfce;
+  border: 0.1em solid #e9dfce;
 }
 
 .contact-form {

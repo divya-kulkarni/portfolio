@@ -1,9 +1,10 @@
 .projects {
   /* margin: 0 !important; */
-  padding: 1rem 0.5rem;
+  padding: 4rem 1.5rem;
   min-height: 30rem;
-  margin-bottom: 3rem;
-  color: #fff;
+  margin: auto;
+  border: 1px solid #e9dfce;
+  max-width: 60rem;
 }
 
 .projects card {

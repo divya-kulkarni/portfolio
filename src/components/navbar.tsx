@@ -9,15 +9,19 @@ export const NavBar = () => {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
+  const getNextPage = (path: string) => {
+    window.location.pathname = path;
+  };
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" sticky="top" bg="dark" data-bs-theme="dark">
+    <Navbar
+      expand="lg"
+      className="bg-body-tertiary"
+      sticky="top"
+      bg="dark"
+      data-bs-theme="dark"
+    >
       <Container>
-        <Navbar.Brand
-          href="#home"
-          onClick={(e: React.MouseEvent<HTMLElement>) =>
-            handleClickScroll("hero")
-          }
-        >
+        <Navbar.Brand href="/" onClick={() => getNextPage("/")}>
           Divya Kulkarni
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -25,12 +29,7 @@ export const NavBar = () => {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link
-              href="#home"
-              onClick={(e: React.MouseEvent<HTMLElement>) =>
-                handleClickScroll("hero")
-              }
-            >
+            <Nav.Link href="#home" onClick={() => getNextPage("/")}>
               Home
             </Nav.Link>
             <Nav.Link
@@ -41,12 +40,7 @@ export const NavBar = () => {
             >
               Skills
             </Nav.Link>
-            <Nav.Link
-              href="#about"
-              onClick={(e: React.MouseEvent<HTMLElement>) =>
-                handleClickScroll("skills")
-              }
-            >
+            <Nav.Link href="" onClick={() => getNextPage("/about")}>
               About
             </Nav.Link>
             <Nav.Link

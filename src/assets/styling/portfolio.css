@@ -1,7 +1,6 @@
-/* .navigation {
-    scroll-behavior: smooth;
-    scrollbar-color: #f9fefe #1b1c21;
-} */
+.navigation {
+  height: 50rem;
+}
 
 .resume {
   color: #ee6030 !important;

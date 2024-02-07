@@ -4,28 +4,53 @@
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  color: #E9DFCE;
+  color: #e9dfce;
+
+  --fs-xl: clamp(7rem, 10vw + 1rem, 15rem);
+  --fs-l: clamp(5rem, 8vw + 1rem, 9rem);
+  --fs-sm: 3rem;
+
+  @media (min-width: 30em) {
+    :root {
+      --fs-xl: clamp(20rem, 15vw + 1rem, 40rem);
+      --fs-l: clamp(15rem, 12vw + 1rem, 25rem);
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #e9dfce !important;
 }
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 5rem; 
+  scroll-padding-top: 5rem;
 }
 
 body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   background-color: #1e2125 !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
 
-p, a, li, button, ul {
+p,
+a,
+li,
+button,
+ul {
   margin: 0;
   padding: 0;
   line-height: normal;
@@ -42,7 +67,7 @@ button {
 }
 
 Col {
-  margin: 0 ;
+  margin: 0;
 }
 
 .App-logo {
@@ -78,4 +103,24 @@ Col {
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: "Migra-bold";
+  src: url("./assets/fonts/Migra-Extrabold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Migra-light";
+  src: url("./assets/fonts/Migra-Extralight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Migra-bold-italic";
+  src: url("./assets/fonts/MigraItalic-ExtraboldItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Migra-light-italic";
+  src: url("./assets/fonts/MigraItalic-ExtralightItalic.otf") format("opentype");
 }

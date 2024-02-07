@@ -1,7 +1,10 @@
 .footer {
+  background-color: #1e2125;
   color: #bdbcbb;
   width: 100%;
   overflow-x: hidden;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer-content {
@@ -30,15 +33,4 @@
 
 .footer-section p {
   font-size: clamp(0.5rem, 1rem, 2rem);
-}
-
-.waves {
-  aspect-ratio: 960/300;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url(../images/waves.svg);
-  margin: 0;
-  padding: 0;
 }

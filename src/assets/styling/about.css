@@ -1,0 +1,12 @@
+.about {
+    padding: 8rem 1rem;
+}
+
+.about h1 {
+    font-family: Migra-light-italic;
+    font-size: clamp(1.5rem, 3.7rem, 5rem);
+}
+
+.about img {
+    padding-bottom: 2rem;
+}
