@@ -3,13 +3,7 @@
   padding: 4rem 1.5rem;
   min-height: 30rem;
   margin: auto;
-  border: 1px solid #e9dfce;
   max-width: 60rem;
-}
-
-.projects card {
-  box-shadow: none !important;
-  background-color: none !important;
 }
 
 .projects h3 {
@@ -22,6 +16,10 @@
   flex-wrap: wrap;
   align-items: center;
   margin: 0 !important;
+}
+
+.projects img {
+  border: 1px solid #e9dfce;
 }
 
 .project-action {
