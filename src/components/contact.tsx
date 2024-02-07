@@ -1,11 +1,13 @@
 import { Col, Form, Button } from "react-bootstrap";
+import Alert from "react-bootstrap/Alert";
 import emailjs from "emailjs-com";
 import "../assets/styling/contact.css";
 import { NavBar } from "./navbar";
-import scatter from "../assets/images/contact-scatter.svg";
 import { Footer } from "./footer";
+import { useState } from "react";
 
 export const Contact = () => {
+  const [showAlert, setShowAlert] = useState(false);
   const sendEmail = (e: any) => {
     e.preventDefault();
 
@@ -19,6 +21,8 @@ export const Contact = () => {
       .then(
         (result: { text: any }) => {
           console.log("Email sent successfully!", result.text);
+          setShowAlert(true);
+          e.target.reset();
         },
         (error: { text: any }) => {
           console.log("Error sending email:", error.text);
@@ -46,12 +50,21 @@ export const Contact = () => {
               placeholder="Your message"
             />
           </Form.Group>
+          {showAlert && (
+            <Alert
+              variant="success"
+              onClose={() => setShowAlert(false)}
+              dismissible
+            >
+              Message sent!
+            </Alert>
+          )}
           <Button type="submit" className="contact-btn">
             Submit
           </Button>
         </Form>
       </div>
-     <Footer />
+      <Footer />
     </div>
   );
 };
