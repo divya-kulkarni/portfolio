@@ -15,14 +15,14 @@ export const Footer = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <img src={linkedin} alt=""></img>
+                <img src={linkedin} alt=""/>
               </a>
               <a
                 href="https://github.com/divya-kulkarni"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <img src={github} alt=""></img>
+                <img src={github} alt="" />
               </a>
             </div>
             <section className="footer-section">
