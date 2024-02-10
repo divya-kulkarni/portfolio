@@ -1,14 +1,13 @@
 .projects {
-  /* margin: 0 !important; */
   padding: 4rem 1.5rem;
-  min-height: 30rem;
   margin: auto;
   max-width: 60rem;
 }
 
 .projects h3 {
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+  font-size: var(--fs-md);
 }
 
 .projects row {
@@ -20,6 +19,7 @@
 
 .projects img {
   border: 1px solid #e9dfce;
+  aspect-ratio: 16/9;
 }
 
 .project-action {
