@@ -6,9 +6,9 @@ export const Hero = () => {
   };
   return (
     <div className="hero" id="hero">
-      <span className="hero-name">{`<b>I'm Divya</b>`}</span>
+      <span className="hero-name hero-text">{`<b>I'm Divya</b>`}</span>
       <h1>{`Front-End Web Developer`}</h1>
-      <p>
+      <p className="hero-text">
         Creative professional specializing in responsive design and frontend
         development for an enhanced user experience.Creative professional.
       </p>

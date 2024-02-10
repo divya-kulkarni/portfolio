@@ -1,4 +1,3 @@
-/* Defautl CSS */
 * {
   margin: 0;
   padding: 0;
@@ -7,14 +6,17 @@
   color: #e9dfce;
 
   --fs-xl: clamp(7rem, 10vw + 1rem, 15rem);
-  --fs-l: clamp(5rem, 8vw + 1rem, 9rem);
-  --fs-sm: 3rem;
+  --fs-l: clamp(3rem, 4rem, 6rem);
+  --fs-sm: clamp(1rem, 1.4rem, 3rem);
+  --fs-xs: clamp(0.5rem, 1.4rem, 5rem);
+}
 
-  @media (min-width: 30em) {
-    :root {
-      --fs-xl: clamp(20rem, 15vw + 1rem, 40rem);
-      --fs-l: clamp(15rem, 12vw + 1rem, 25rem);
-    }
+@media only screen and (min-width: 55rem) {
+  body {
+    --fs-xl: clamp(7rem, 15vw + 1rem, 30rem);
+    --fs-l: clamp(10rem, 20rem, 25rem);
+    --fs-sm: clamp(3rem, 5rem, 7rem);
+    --fs-xs: 8rem;
   }
 }
 
@@ -32,7 +34,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
   background-color: #1e2125 !important;
 }
 
