@@ -2,7 +2,6 @@ import { Footer } from "./footer";
 import { NavBar } from "./navbar";
 import { Col, Row } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
-import { useState } from "react";
 import "../assets/styling/about.css";
 import myPhoto from "../assets/images/divya.png";
 import fuji from "../assets/images/about/fuji.jpg";
@@ -15,7 +14,6 @@ export const About = () => {
   };
 
   function ImgCarousel() {
-
     return (
       <Carousel fade>
         <Carousel.Item>
@@ -25,19 +23,19 @@ export const About = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src={fuji} alt="fuji"/>
+          <img src={fuji} alt="fuji" />
           <Carousel.Caption>
             <h3>Mt Fuji: 3770m</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src={film} alt="boat"/>
+          <img src={film} alt="boat" />
           <Carousel.Caption>
             <h3>Boat on Ishigaki Island</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src={heart} alt="heart"/>
+          <img src={heart} alt="heart" />
           <Carousel.Caption>
             <h3>Pen Sketch</h3>
           </Carousel.Caption>
@@ -54,13 +52,12 @@ export const About = () => {
             <ImgCarousel />
           </Col>
           <Col sm={12} md={7}>
+            <h2>Let's create something special!</h2>
             <p>
               Hey there, welcome to my corner of the internet!
               <br />
-              <br /> I'm a full stack developer based in the bustling city of
-              Tokyo, Japan. Frontend development is my passion—I thrive on
-              creating seamless and engaging user experiences that leave a
-              lasting impression.
+              <br /> I'm a full stack developer from India, based in the electric city of
+              Tokyo, Japan.
               <br />
               <br />
               With a keen interest in frontend development, I love crafting
@@ -76,10 +73,10 @@ export const About = () => {
               or simply gazing at its majestic silhouette on the horizon.
               <br />
               <br />
-              Curious about my work? Feel free to browse through my portfolio
-              and see how I blend creativity with code to bring ideas to life.
-              Feel free to explore and drop me a line if you fancy a chat about
-              tech, art, or the best spots to view Fuji-san.
+              Interested in my work? Explore my portfolio and discover how I
+              merge creativity with code to breathe life into ideas. Feel free
+              to reach out if you'd like to discuss tech, art, or the perfect
+              spots for admiring Mount Fuji.
             </p>
             <div className="hero-action">
               <a
