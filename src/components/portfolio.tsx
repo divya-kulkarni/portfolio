@@ -16,10 +16,18 @@ import { Hero } from "../components/hero";
 import { Skills } from "./skills";
 import { Projects } from "./projects";
 import resume from "../assets/resume/resume.pdf";
+import "../assets/styling/portfolio.css";
 
 export const Portfolio = () => {
   const getNextPage = (path: string) => {
     window.location.pathname = path;
+  };
+
+  const handleClickScroll = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   const ZoomInVar = batch(StickyIn(), FadeIn(), ZoomIn());
@@ -28,36 +36,43 @@ export const Portfolio = () => {
   return (
     <>
       <ScrollContainer>
-        {/* Page 1 */}
+        {/* Hello World */}
+        <div id="hello">
         <ScrollPage>
           <Animator animation={batch(Sticky(), Fade(), MoveOut(0, -300))}>
             <HelloWorld />
           </Animator>
         </ScrollPage>
-        {/* Page 2*/}
+        </div>
+        {/* Hero */}
         <ScrollPage>
           <Animator animation={ZoomInVar}>
             <Hero />
           </Animator>
         </ScrollPage>
-
+        {/* Skills */}
         <ScrollPage>
           <Animator animation={FadeIn(50, 100)}>
             <Skills />
-            <Projects />
           </Animator>
         </ScrollPage>
-        <ScrollPage>
+        {/* Projects */}
+        {/* <ScrollPage className="projects-page">
           <Animator animation={FadeIn(50, 100)}>
             <Projects />
           </Animator>
-        </ScrollPage>
-
+        </ScrollPage> */}
+        <Projects />
         {/* Navigation */}
         <ScrollPage className="navigation">
           <Animator animation={SlideIn}>
-            <h2 onClick={() => getNextPage("/")}>Home</h2>
-            <h2>Projects</h2>
+            <h2
+              onClick={(e: React.MouseEvent<HTMLElement>) =>
+                handleClickScroll("hello")
+              }
+            >
+              Home
+            </h2>
             <h2 onClick={() => getNextPage("/about")}>About</h2>
             <h2 onClick={() => getNextPage("/contact")}>Contact</h2>
             <a
