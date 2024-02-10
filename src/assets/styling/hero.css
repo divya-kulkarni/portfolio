@@ -1,5 +1,5 @@
 .hero {
-  margin-top: 8rem;
+  margin-top: clamp(8rem, 18rem, 25rem);
   margin-bottom: 5rem;
   padding: 3rem 0.5rem;
   text-align: left;
@@ -9,18 +9,15 @@
 }
 
 .hero-name {
-  /* font-weight: 700; */
   letter-spacing: 0.8px;
   padding: 1rem 0;
-  font-size: clamp(0.8rem, 1.2rem, 3rem);
+  font-size: clamp(0.8rem, 1.5rem, 3rem);
   display: inline-block;
 }
 
 .hero h1 {
-  /* font-size: clamp(3.5rem, 1rem + 10vw, 5rem); */
   font-size: var(--fs-l);
-  /* font-family: 'Times New Roman', Times, serif !important; */
-  font-family: Migra-light-italic;
+  font-family: Migra-bold;
   font-weight: 400;
   letter-spacing: 0.2rem;
   line-height: 1.2;
@@ -30,7 +27,7 @@
 }
 
 .hero p {
-  font-size: clamp(0.5rem, 1rem, 2rem);
+  font-size: clamp(0.8rem, 1.5rem, 3rem);
   padding: 0.5rem 0;
 }
 
@@ -55,10 +52,11 @@
   flex: 1;
   text-decoration: none !important;
   color: #e9dfce;
+  font-size: clamp(0.8rem, 1.5rem, 3rem);
 }
 
 .action-btn:hover {
-  color: #1e2125;
+  color: #1e2125 !important;
   background-color: #e9dfce;
   border: 0.1em solid #e9dfce;
 }
