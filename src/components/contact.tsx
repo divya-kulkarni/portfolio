@@ -22,7 +22,6 @@ export const Contact = () => {
         (result: { text: any }) => {
           console.log("Email sent successfully!", result.text);
           setShowAlert(true);
-          e.target.reset();
         },
         (error: { text: any }) => {
           console.log("Error sending email:", error.text);
@@ -60,7 +59,7 @@ export const Contact = () => {
             </Alert>
           )}
           <Button type="submit" className="contact-btn">
-            Submit
+            Send
           </Button>
         </Form>
       </div>
