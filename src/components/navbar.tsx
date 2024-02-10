@@ -3,12 +3,6 @@ import "../assets/styling/navbar.css";
 import resume from "../assets/resume/resume.pdf";
 
 export const NavBar = () => {
-  const handleClickScroll = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
   const getNextPage = (path: string) => {
     window.location.pathname = path;
   };
@@ -32,31 +26,10 @@ export const NavBar = () => {
             <Nav.Link href="#home" onClick={() => getNextPage("/")}>
               Home
             </Nav.Link>
-            <Nav.Link
-              href="#skills"
-              onClick={(e: React.MouseEvent<HTMLElement>) =>
-                handleClickScroll("skills")
-              }
-            >
-              Skills
-            </Nav.Link>
             <Nav.Link href="" onClick={() => getNextPage("/about")}>
               About
             </Nav.Link>
-            <Nav.Link
-              href="#projects"
-              onClick={(e: React.MouseEvent<HTMLElement>) =>
-                handleClickScroll("projects")
-              }
-            >
-              Projects
-            </Nav.Link>
-            <Nav.Link
-              href="#contact"
-              onClick={(e: React.MouseEvent<HTMLElement>) =>
-                handleClickScroll("contact")
-              }
-            >
+            <Nav.Link href="" onClick={() => getNextPage("/contact")}>
               Contact
             </Nav.Link>
             <Nav.Link href={resume} rel="noopener noreferrer" target="_blank">

@@ -1,23 +1,24 @@
 nav.navbar {
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 9999;
-    transition: 0.32 ease-in-out;
-    background-color: #1e2125 !important;
-    text-align: center;
-    color: #E9DFCE !important;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition: 0.32 ease-in-out;
+  background-color: #1e2125 !important;
+  text-align: center;
+  color: #e9dfce !important;
+  font-size: var(--fs-sm);
 }
 
 nav.navbar .navbar-nav .nav-link .navbar-link {
-    font-weight: 500;
-    color: #E9DFCE !important;
-    padding: 0 1rem;
-    opacity: 0.70;
-  }
-  
-  nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-  nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-      opacity: 1;
+  font-weight: 500;
+  color: #e9dfce !important;
+  padding: 0 1rem;
+  opacity: 0.7;
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+  opacity: 1;
 }
