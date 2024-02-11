@@ -2,6 +2,7 @@ import { Footer } from "./footer";
 import { NavBar } from "./navbar";
 import { Col, Row } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
+// import { annotate } from "rough-notation";
 import "../assets/styling/about.css";
 import myPhoto from "../assets/images/divya.png";
 import fuji from "../assets/images/about/fuji.jpg";
@@ -52,12 +53,12 @@ export const About = () => {
             <ImgCarousel />
           </Col>
           <Col sm={12} md={7}>
-            <h2>Let's create something special!</h2>
+            {/* <h2>Let's create something special!</h2> */}
             <p>
-              Hey there, welcome to my corner of the internet!
+              Hey there, welcome to my corner of the internet! 🦄
               <br />
-              <br /> I'm a full stack developer from India, based in the electric city of
-              Tokyo, Japan.
+              <br /> I'm a full stack developer from India 🇮🇳 based in the
+              electric city of Tokyo, Japan. 🇯🇵
               <br />
               <br />
               With a keen interest in frontend development, I love crafting
@@ -68,14 +69,16 @@ export const About = () => {
               the essence of life in Tokyo.
               <br />
               <br />
-              And of course, my love affair with Mt. Fuji continues to inspire
+              And of course, my love affair with Mt. Fuji 🗻 continues to inspire
               me—whether it's incorporating its timeless beauty into my artwork
               or simply gazing at its majestic silhouette on the horizon.
               <br />
               <br />
               Interested in my work? Explore my portfolio and discover how I
-              merge creativity with code to breathe life into ideas. Feel free
-              to reach out if you'd like to discuss tech, art, or the perfect
+              merge creativity with code to breathe life into ideas.👩🏻‍💻 
+              <br />
+              <br />
+              Feel free to reach out if you'd like to discuss tech, art, or the perfect
               spots for admiring Mount Fuji.
             </p>
             <div className="hero-action">
