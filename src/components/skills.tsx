@@ -15,9 +15,9 @@ import jest from "../assets/images/tech/jest.svg";
 export const Skills = () => {
   return (
     <div className="info-grid" id="skills">
-        <div className="skill-header"></div>
       <Container>
         <Row>
+          <h3>Skills</h3>
           <Col className="skills">
             <Row>
               <Col xs={4} sm={3} md={3} lg={3}>

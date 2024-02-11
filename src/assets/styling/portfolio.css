@@ -1,11 +1,15 @@
-.navigation {
-  height: 50rem;
+h2 {
+  font-size: var(--fs-md);
 }
 
-.resume {
-  color: #ee6030 !important;
+.projects-page {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
-.navigation h2 {
-    cursor: pointer;
+.projects-page::-webkit-scrollbar {
+  display: none;
 }

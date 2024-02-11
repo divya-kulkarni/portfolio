@@ -12,22 +12,14 @@
   padding: 2rem 0.5rem;
 }
 
-.skill-header {
-  width: 100%;
-  background-image: no-repeat url('../images/wave1.svg');
-  aspect-ratio: 900/150;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .skills p {
   font-family: Migra-light-italic;
 }
 
-.skills-grid h3 {
+.info-grid h3 {
   text-align: center;
   padding-bottom: 1rem;
+  font-size: var(--fs-md);
 }
 
 .info-grid img {
@@ -46,7 +38,7 @@
 }
 
 .info-grid figcaption {
-  font-size: clamp(0.5rem, 1rem, 5rem);
+  font-size: var(--fs-xs);
   padding-top: 0.5rem;
   width: fit-content;
 }
