@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "crypto": [
+        "node_modules/crypto-js"
+      ]
+    },
     "target": "es5",
     "lib": [
       "dom",
@@ -19,9 +25,6 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx"
-    // "typeRoots": [
-    //   "/src/types.d.ts"
-    // ]
   },
   "include": [
     "src"
