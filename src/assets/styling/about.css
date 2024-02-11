@@ -1,18 +1,29 @@
 .about {
-    padding: 8rem 2rem;
+  padding: 8rem 3rem;
 }
 
 .about h2 {
-    font-family: Migra-light;
-    font-size: var(--fs-l)
+  font-family: Migra-light;
+  font-size: var(--fs-l);
 }
 
 .about img {
-    aspect-ratio: 47/48;
+  object-fit: cover;
+  height: 45em;
+}
+
+@media screen and (max-width: 35em) {
+  .about img {
+    height: 30em;
+  }
+  .carousel {
+    padding: 1rem 0;
+  }
+  .about-text {
+    padding: 0;
+  }
 }
 
 .about p {
-    padding-top: 2rem;
-    font-size: var(--fs-sm);
-    margin-top: 1rem;
+  font-size: var(--fs-sm);
 }

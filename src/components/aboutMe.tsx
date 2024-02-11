@@ -49,11 +49,11 @@ export const About = () => {
       <NavBar />
       <div className="about">
         <Row>
-          <Col sm={12} md={5}>
+          <Col sm={12} md={5} className="carousel">
             <ImgCarousel />
           </Col>
-          <Col sm={12} md={7}>
-            {/* <h2>Let's create something special!</h2> */}
+          <Col sm={12} md={7} className="about-text">
+            <h2>Extras about me</h2>
             <p>
               Hey there, welcome to my corner of the internet! 🦄
               <br />
