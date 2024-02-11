@@ -10,7 +10,7 @@ export const Hero = () => {
       <h1>{`Front-End Web Developer`}</h1>
       <p className="hero-text">
         Creative professional specializing in responsive design and frontend
-        development for an enhanced user experience.Creative professional.
+        development for an enhanced user experience.
       </p>
       <div className="hero-action">
         <a

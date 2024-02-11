@@ -39,7 +39,7 @@
 .action-btn {
   font-weight: 400;
   border: 0.1em solid #e9dfce;
-  padding: 0.7em 1em;
+  padding: 0.7em 1.4em;
   transition: 0.3s ease-in-out;
   z-index: 1;
   box-sizing: border-box;
