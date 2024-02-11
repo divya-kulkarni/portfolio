@@ -1,25 +1,15 @@
-.contact-container col {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-.contact-container row {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+.contact-container {
+  font-size: var(--fs-sm);
 }
 
 .contact-container h4 {
-  font-size: clamp(1.5rem, 3.7rem, 5rem);
+  font-size: var(--fs-l);
   font-family: Migra-light;
   letter-spacing: 0.1rem;
   line-height: 1;
   margin: 3rem 0 1rem 0;
   display: flex;
   overflow-y: hidden;
-}
-
-.contact-container h5 {
-  font-size: var(--fs-sm);
 }
 
 .contact {
@@ -30,22 +20,16 @@
   max-width: 35rem;
 }
 
-.form-control {
-  font-size: var(--fs-sm);
-}
-
 .contact-btn {
-  font-weight: 400;
   border: 0.1em solid #bdbcbb;
-  padding: 0.7em 1.5em;
-  font-size: var(--fs-sm);
+  padding: 0.7em 2em;
   transition: 0.3s ease-in-out;
   z-index: 1;
   box-sizing: border-box;
   display: inline-block;
   text-align: center;
   text-decoration: none;
-  margin: 2em 0;
+  margin: 1rem 0;
   border-radius: 0.12em;
   flex: 1;
   background-color: #1e2125 !important;
@@ -58,5 +42,5 @@
 }
 
 .contact-form {
-  padding: 2rem 0;
+  padding: 1rem 0;
 }

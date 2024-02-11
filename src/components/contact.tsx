@@ -32,7 +32,7 @@ export const Contact = () => {
     <div className="contact-container" id="contact">
       <NavBar />
       <div className="contact">
-        <h4>How can I help you?</h4>
+        <h4>Let's create something special!</h4>
         <h5>Thanks for taking the time to reach out.</h5>
         <Form onSubmit={sendEmail} className="contact-form">
           <Form.Group as={Col} controlId="formGridName" className="mb-4">
