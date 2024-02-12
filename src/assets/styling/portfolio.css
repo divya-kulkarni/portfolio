@@ -1,5 +1,13 @@
-h2 {
+.portfolio h2 {
   font-size: var(--fs-md);
+  font-family: Migra-light;
+  padding-top: 1rem;
+  margin: 0;
+  border-bottom: 1px solid #e9dece;
+}
+
+.portfolio h2:hover {
+  cursor: pointer;
 }
 
 .projects-page {
@@ -12,4 +20,8 @@ h2 {
 
 .projects-page::-webkit-scrollbar {
   display: none;
+}
+
+.portfolio a {
+  text-decoration: none;
 }

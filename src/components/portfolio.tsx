@@ -38,11 +38,11 @@ export const Portfolio = () => {
       <ScrollContainer>
         {/* Hello World */}
         <div id="hello">
-        <ScrollPage>
-          <Animator animation={batch(Sticky(), Fade(), MoveOut(0, -300))}>
-            <HelloWorld />
-          </Animator>
-        </ScrollPage>
+          <ScrollPage>
+            <Animator animation={batch(Sticky(), Fade(), MoveOut(0, -300))}>
+              <HelloWorld />
+            </Animator>
+          </ScrollPage>
         </div>
         {/* Hero */}
         <ScrollPage>
@@ -57,14 +57,9 @@ export const Portfolio = () => {
           </Animator>
         </ScrollPage>
         {/* Projects */}
-        {/* <ScrollPage className="projects-page">
-          <Animator animation={FadeIn(50, 100)}>
-            <Projects />
-          </Animator>
-        </ScrollPage> */}
         <Projects />
         {/* Navigation */}
-        <ScrollPage className="navigation">
+        <ScrollPage className="portfolio">
           <Animator animation={SlideIn}>
             <h2
               onClick={(e: React.MouseEvent<HTMLElement>) =>

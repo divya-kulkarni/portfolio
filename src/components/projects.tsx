@@ -10,7 +10,7 @@ export const Projects = () => {
   return (
     <div className="projects" id="projects">
       <h3>Recent Work</h3>
-      <Row className="g-4">
+      <Row className="g-4" style={{paddingTop: "2rem"}}>
         <Col xs={12} sm={9} md={6} className="mb-2">
           <img src={tns} alt="tns" className="img-fluid" />
         </Col>

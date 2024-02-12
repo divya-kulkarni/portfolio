@@ -64,9 +64,8 @@ export const About = () => {
               With a keen interest in frontend development, I love crafting
               beautiful and intuitive user experiences that leave a lasting
               impression. When I'm not coding, you can find me exploring the
-              world of acrylic painting, where every brushstroke tells a story,
-              or wandering the streets with my vintage film camera, capturing
-              the essence of life in Tokyo.
+              world of acrylic painting, or wandering the streets with my film camera, capturing
+              the essence of life in Japan.
               <br />
               <br />
               And of course, my love affair with Mt. Fuji 🗻 continues to inspire

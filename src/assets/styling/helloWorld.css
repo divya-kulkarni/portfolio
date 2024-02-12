@@ -6,7 +6,7 @@
 }
 
 .hello h1 {
-  font-family: Playfair Display, serif;
+  font-family: Migra-bold;
   font-size: var(--fs-xl);
   font-family: Migra-bold;
   letter-spacing: 0.2rem;
@@ -14,6 +14,10 @@
   margin-bottom: 1rem;
   display: block;
   overflow-y: hidden;
+}
+
+.hello span {
+  font-family: Migra-light-italic;
 }
 
 .hello h5 {

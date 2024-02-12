@@ -8,6 +8,7 @@
   text-align: center;
   background-position: center;
   position: relative;
+
 }
 
 .overlay {
@@ -17,22 +18,27 @@
   left: 0;
   width: 100%;
   height: 100%;
+  overflow-y: hidden;
 }
 
 .not-found span {
-    position: absolute;
-    width: 100%;
-    display: inline-block;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .not-found h1 {
-  font-size: clamp(3.5rem, 1rem + 10vw, 5rem);
+  font-size: var(--fs-md); 
 }
 
 .not-found p {
   font-size: clamp(1rem, 1.2rem, 3rem);
   padding: 0.5rem 0;
+}
+
+.not-found a {
+  font-size: var(--fs-md);
 }

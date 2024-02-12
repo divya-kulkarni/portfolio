@@ -6,7 +6,7 @@ export const Hero = () => {
   };
   return (
     <div className="hero" id="hero">
-      <span className="hero-name hero-text">{`<b>I'm Divya</b>`}</span>
+      <span className="hero-name hero-text">{`<b>I'm Divya Kulkarni</b>`}</span>
       <h1>{`Front-End Web Developer`}</h1>
       <p className="hero-text">
         Creative professional specializing in responsive design and frontend

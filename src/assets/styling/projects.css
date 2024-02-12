@@ -6,15 +6,18 @@
 
 .projects h3 {
   text-align: center;
-  padding-bottom: 2rem;
   font-size: var(--fs-md);
+  font-family: Migra-light-italic;
+  border-bottom: 1px solid #e9dfce;
+  padding-bottom: 1rem;
 }
 
-.projects row {
+.projects Row {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin: 0 !important;
+  padding-top: 2rem;
 }
 
 .projects img {

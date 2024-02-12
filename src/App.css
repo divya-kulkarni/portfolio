@@ -7,18 +7,18 @@
 
   --fs-xl: clamp(7rem, 10vw + 1rem, 15rem);
   --fs-l: clamp(3rem, 4rem, 6rem);
-  --fs-md: clamp(1.2rem, 1.7rem, 3rem);
+  --fs-md: clamp(1.2rem, 2.5rem, 3rem);
   --fs-sm: clamp(0.8rem, 1.4rem, 2rem);
   --fs-xs: clamp(0.5rem, 1.1rem, 5rem);
 }
 
 @media only screen and (min-width: 55rem) {
-  body {
-    --fs-xl: clamp(7rem, 15vw + 1rem, 30rem);
-    --fs-l: clamp(10rem, 20rem, 25rem);
-    --fs-md: clamp(3rem, 5rem, 7rem);
-    --fs-sm: clamp(0.8rem, 1.1rem, 2rem);
-    --fs-xs: 8rem;
+  * {
+    --fs-xl: clamp(15rem, 20rem, 30rem);
+    --fs-l: clamp(10rem, 10rem, 18rem);
+    --fs-md: clamp(3rem, 3rem, 9rem);
+    --fs-sm: clamp(0.8rem, 1.5rem, 3rem);
+    --fs-xs: clamp(1rem, 1.2rem, 3rem);
   }
 }
 
@@ -82,30 +82,6 @@ Col {
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }
 

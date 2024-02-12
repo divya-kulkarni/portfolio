@@ -3,13 +3,14 @@
 }
 
 .contact-container h4 {
-  font-size: var(--fs-l);
+  font-size: var(--fs-md);
   font-family: Migra-light;
   letter-spacing: 0.1rem;
   line-height: 1;
   margin: 3rem 0 1rem 0;
   display: flex;
   overflow-y: hidden;
+  padding-top: 2rem;
 }
 
 .contact {
@@ -36,8 +37,8 @@
 }
 
 .contact-btn:hover {
-  background-color: #1e2125;
-  color: #e9dfce;
+  background-color: #e9dfce !important;
+  color: #1e2125;
   border: 0.1em solid #e9dfce;
 }
 

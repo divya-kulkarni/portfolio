@@ -9,7 +9,7 @@ export const NavBar = () => {
   return (
     <Navbar
       expand="lg"
-      className="bg-body-tertiary"
+      className="bg-body-tertiary navBar"
       sticky="top"
       bg="dark"
       data-bs-theme="dark"

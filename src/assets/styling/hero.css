@@ -4,6 +4,14 @@
   padding: 3rem 0.5rem;
   text-align: left;
   min-height: 50rem;
+  min-width: 20rem;
+}
+
+@media screen and (min-width: 55rem) {
+  .hero {
+    min-width: 70rem;
+    text-align: center;
+  }
 }
 
 .hero-name {

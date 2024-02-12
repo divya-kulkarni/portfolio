@@ -4,7 +4,7 @@
 
 .about h2 {
   font-family: Migra-light;
-  font-size: var(--fs-l);
+  font-size: var(--fs-md);
 }
 
 .about img {
@@ -26,4 +26,5 @@
 
 .about p {
   font-size: var(--fs-sm);
+  padding-top: 1rem;
 }

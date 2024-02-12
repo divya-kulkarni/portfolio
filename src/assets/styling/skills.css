@@ -1,7 +1,7 @@
 .info-grid {
   color: #f9fefe;
   margin: auto;
-  padding: 1rem;
+  padding: 8rem 1rem;
   max-width: 50rem;
   text-align: center;
   min-height: 50rem;
@@ -12,14 +12,13 @@
   padding: 2rem 0.5rem;
 }
 
-.skills p {
-  font-family: Migra-light-italic;
-}
 
 .info-grid h3 {
   text-align: center;
   padding-bottom: 1rem;
   font-size: var(--fs-md);
+  font-family: Migra-light-italic;
+  border-bottom: 1px solid #e9dfce;
 }
 
 .info-grid img {
