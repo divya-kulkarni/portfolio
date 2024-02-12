@@ -12,12 +12,11 @@
   padding: 2rem 0.5rem;
 }
 
-
 .info-grid h3 {
   text-align: center;
   padding-bottom: 1rem;
   font-size: var(--fs-md);
-  font-family: Migra-light-italic;
+  font-family: Migra-light;
   border-bottom: 1px solid #e9dfce;
 }
 

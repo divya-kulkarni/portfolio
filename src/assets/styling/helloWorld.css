@@ -14,12 +14,13 @@
   margin-bottom: 1rem;
   display: block;
   overflow-y: hidden;
+  padding-bottom: 4rem;
 }
 
 .hello span {
-  font-family: Migra-light-italic;
+  font-family: Migra-light;
 }
 
 .hello h5 {
-  font-size: var(--fs-sm);
+  font-size: var(--fs-xs);
 }
