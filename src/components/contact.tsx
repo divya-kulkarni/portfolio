@@ -7,24 +7,31 @@ import { Footer } from "./footer";
 import { useState } from "react";
 
 export const Contact = () => {
-  const [showAlert, setShowAlert] = useState(false);
+  const errorMessage =
+    "Oops, your email hit a speed bump. Could you send it to divya.kulkarni.dev@gmail.com? Thanks! 💌";
+  const successMessage = "Message sent! 🚀";
+  const [successAlert, setSuccessAlert] = useState(false);
+  const [errorAlert, setErrorAlert] = useState(false);
   const sendEmail = (e: any) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
         "service_zrb63s4",
-        "template_q4acwkn",
+        "template_cnfx0df",
         e.target,
         "07ZI4jhivAYTiqsE-"
       )
       .then(
         (result: { text: any }) => {
           console.log("Email sent successfully!", result.text);
-          setShowAlert(true);
+          setSuccessAlert(true);
+          e.target.reset();
         },
         (error: { text: any }) => {
           console.log("Error sending email:", error.text);
+          setErrorAlert(true);
+          e.target.reset();
         }
       );
   };
@@ -49,13 +56,22 @@ export const Contact = () => {
               placeholder="Your message"
             />
           </Form.Group>
-          {showAlert && (
+          {successAlert && (
             <Alert
               variant="success"
-              onClose={() => setShowAlert(false)}
+              onClose={() => setSuccessAlert(false)}
               dismissible
             >
-              Message sent!
+              {successMessage}
+            </Alert>
+          )}
+          {errorAlert && (
+            <Alert
+              variant="error"
+              onClose={() => setErrorAlert(false)}
+              dismissible
+            >
+              {errorMessage}
             </Alert>
           )}
           <Button type="submit" className="contact-btn">
