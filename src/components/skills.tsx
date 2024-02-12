@@ -11,6 +11,7 @@ import git from "../assets/images/tech/git-icon.svg";
 import aws from "../assets/images/tech/aws.svg";
 import mongo from "../assets/images/tech/mongo.svg";
 import jest from "../assets/images/tech/jest.svg";
+import responsive from '../assets/images/tech/responsive.svg';
 
 export const Skills = () => {
   return (
@@ -89,8 +90,8 @@ export const Skills = () => {
               </Col>
               <Col xs={4} sm={3} md={3}>
                 <figure>
-                  <img src={javascript} alt="" className="img-fluid"></img>
-                  <figcaption>JavaScript</figcaption>
+                  <img src={responsive} alt="" className="img-fluid"></img>
+                  <figcaption>Responsive Design</figcaption>
                 </figure>
               </Col>
             </Row>
