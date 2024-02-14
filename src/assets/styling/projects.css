@@ -1,5 +1,5 @@
 .projects {
-  padding: 4rem 1.5rem;
+  padding: 4rem 1.5rem 10rem;
   margin: auto;
   max-width: 60rem;
 }
@@ -20,32 +20,15 @@
   padding-top: 2rem;
 }
 
-.projects img {
+.projects img, .soon {
   border: 1px solid #e9dfce;
   aspect-ratio: 16/9;
 }
 
-.project-action {
-  display: inline-flex;
+.soon {
+  background-color: gray;
+  font-size: var(--fs-md);
   text-align: center;
-}
-
-.project-action button {
-  font-weight: 500;
-  padding: 0.3em 1em;
-  font-size: 1em;
-  transition: 0.3s ease-in-out;
-  z-index: 1;
-  box-sizing: border-box;
-  display: inline-flex;
-  text-align: center;
-  text-decoration: none;
-  margin: 0 0.5em 0.3em 0;
-  flex: 1;
-  border: 0.1em solid #333;
-}
-
-.project-action button:hover {
-  color: #333;
-  background-color: #fff;
+  justify-content: center;
+  align-items: center;
 }

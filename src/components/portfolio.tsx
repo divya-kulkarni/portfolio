@@ -31,7 +31,7 @@ export const Portfolio = () => {
   };
 
   const ZoomInVar = batch(StickyIn(), FadeIn(), ZoomIn());
-  const SlideIn = batch(StickyIn(), FadeIn(), MoveIn(0, 1000));
+  const SlideIn = batch(StickyIn(), FadeIn());
 
   return (
     <>
@@ -57,7 +57,12 @@ export const Portfolio = () => {
           </Animator>
         </ScrollPage>
         {/* Projects */}
-        <Projects />
+        <ScrollPage className="projects-page">
+          <Animator animation={FadeIn(50, 100)}>
+            <Projects />
+          </Animator>
+        </ScrollPage>
+        {/* <Projects /> */}
         {/* Navigation */}
         <ScrollPage className="portfolio">
           <Animator animation={SlideIn}>
