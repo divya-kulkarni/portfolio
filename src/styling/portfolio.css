@@ -13,9 +13,8 @@
 .projects-page {
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  overflow-y: hidden;
+  height: 100%;
 }
 
 .projects-page::-webkit-scrollbar {

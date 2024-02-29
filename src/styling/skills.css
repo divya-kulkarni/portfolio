@@ -5,7 +5,10 @@
   max-width: 50rem;
   text-align: center;
   min-height: 50rem;
-  text-align: center;
+}
+
+.skills Col {
+  border: 1px solid #e9dfce;
 }
 
 .skills {
@@ -25,6 +28,12 @@
   height: clamp(2em, 3em, 5em);
   display: block;
   aspect-ratio: 40/48;
+  opacity: 0.7;
+}
+
+.info-grid img:hover {
+  cursor: pointer;
+  opacity: 1;
 }
 
 .info-grid h4 {
@@ -34,10 +43,9 @@
 .info-grid figure {
   width: fit-content;
   display: inline-block;
+  padding: 1rem 0;
 }
 
-.info-grid figcaption {
-  font-size: var(--fs-xs);
-  padding-top: 0.5rem;
-  width: fit-content;
+#button-tooltip {
+  overflow: hidden;
 }

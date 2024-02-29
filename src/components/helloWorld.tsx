@@ -1,4 +1,4 @@
-import "../assets/styling/helloWorld.css";
+import "../styling/helloWorld.css";
 
 export const HelloWorld = () => {
   return (

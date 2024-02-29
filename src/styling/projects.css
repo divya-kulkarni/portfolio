@@ -1,0 +1,34 @@
+.projects {
+  padding: 4rem 1.5rem 10rem;
+  margin: auto;
+  max-width: 60rem;
+}
+
+.projects h3 {
+  text-align: center;
+  font-size: var(--fs-md);
+  font-family: Migra-light;
+  border-bottom: 1px solid #e9dfce;
+  padding-bottom: 1rem;
+}
+
+.projects Row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 !important;
+  padding-top: 2rem;
+}
+
+.projects img, .soon {
+  border: 1px solid #e9dfce;
+  aspect-ratio: 16/9;
+}
+
+.soon {
+  background-color: gray;
+  font-size: var(--fs-md);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

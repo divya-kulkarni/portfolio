@@ -1,4 +1,4 @@
-import "../assets/styling/notFound.css";
+import "../styling/notFound.css";
 
 export const NotFound = () => {
   const getNextPage = (path: string) => {

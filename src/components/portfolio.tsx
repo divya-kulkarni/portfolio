@@ -16,7 +16,7 @@ import { Hero } from "../components/hero";
 import { Skills } from "./skills";
 import { Projects } from "./projects";
 import resume from "../assets/resume/resume.pdf";
-import "../assets/styling/portfolio.css";
+import "../styling/portfolio.css";
 
 export const Portfolio = () => {
   const getNextPage = (path: string) => {
@@ -31,7 +31,7 @@ export const Portfolio = () => {
   };
 
   const ZoomInVar = batch(StickyIn(), FadeIn(), ZoomIn());
-  const SlideIn = batch(StickyIn(), FadeIn(), MoveIn(0, 1000));
+  const SlideIn = batch(StickyIn(), FadeIn());
 
   return (
     <>
@@ -57,7 +57,12 @@ export const Portfolio = () => {
           </Animator>
         </ScrollPage>
         {/* Projects */}
-        <Projects />
+        <ScrollPage className="projects-page">
+          <Animator animation={FadeIn(50, 100)}>
+            <Projects />
+          </Animator>
+        </ScrollPage>
+        {/* <Projects /> */}
         {/* Navigation */}
         <ScrollPage className="portfolio">
           <Animator animation={SlideIn}>

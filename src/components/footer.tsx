@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import "../assets/styling/footer.css";
+import "../styling/footer.css";
 import linkedin from "../assets/images/social/linkedin.svg";
 import github from "../assets/images/social/github.svg";
 
