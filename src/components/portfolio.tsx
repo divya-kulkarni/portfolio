@@ -2,7 +2,6 @@ import {
   Animator,
   Fade,
   FadeIn,
-  MoveIn,
   MoveOut,
   ScrollContainer,
   ScrollPage,
