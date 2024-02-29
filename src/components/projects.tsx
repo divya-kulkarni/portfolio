@@ -1,6 +1,6 @@
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import "../assets/styling/projects.css";
+import "../styling/projects.css";
 import tns from "../assets/images/screenshots/tns.png";
 import portfolio from "../assets/images/screenshots/portfolio.png";
 

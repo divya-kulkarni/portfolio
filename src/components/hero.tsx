@@ -1,4 +1,4 @@
-import "../assets/styling/hero.css";
+import "../styling/hero.css";
 
 export const Hero = () => {
   const getNextPage = (path: string) => {

@@ -3,7 +3,7 @@ import { NavBar } from "./navbar";
 import { Col, Row } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 // import { annotate } from "rough-notation";
-import "../assets/styling/about.css";
+import "../styling/about.css";
 import myPhoto from "../assets/images/divya.png";
 import fuji from "../assets/images/about/fuji.jpg";
 import film from "../assets/images/about/film2.jpg";

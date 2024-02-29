@@ -16,7 +16,7 @@ import { Hero } from "../components/hero";
 import { Skills } from "./skills";
 import { Projects } from "./projects";
 import resume from "../assets/resume/resume.pdf";
-import "../assets/styling/portfolio.css";
+import "../styling/portfolio.css";
 
 export const Portfolio = () => {
   const getNextPage = (path: string) => {

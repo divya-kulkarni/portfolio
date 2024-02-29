@@ -1,5 +1,5 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
-import "../assets/styling/navbar.css";
+import "../styling/navbar.css";
 import resume from "../assets/resume/resume.pdf";
 
 export const NavBar = () => {

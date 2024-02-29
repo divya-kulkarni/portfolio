@@ -1,7 +1,7 @@
 import { Col, Form, Button } from "react-bootstrap";
 import Alert from "react-bootstrap/Alert";
 import emailjs from "emailjs-com";
-import "../assets/styling/contact.css";
+import "../styling/contact.css";
 import { NavBar } from "./navbar";
 import { Footer } from "./footer";
 import { useState } from "react";

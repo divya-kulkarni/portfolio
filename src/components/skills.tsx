@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip, { TooltipProps } from "react-bootstrap/Tooltip";
-import "../assets/styling/skills.css";
+import "../styling/skills.css";
 import express from "../assets/images/tech/express.svg";
 import typescript from "../assets/images/tech/typescript.svg";
 import node from "../assets/images/tech/node.svg";
@@ -26,7 +26,7 @@ export const Skills = () => {
     <div className="info-grid" id="skills">
       <Container>
         <Row>
-          <h3>Skills</h3>
+          <h3>What I can do</h3>
           <Col className="skills">
             <Row>
               {skillData.map((skill) => (
@@ -63,12 +63,12 @@ const skillData = [
   },
   {
     id: 2,
-    name: "HTML",
+    name: "HTML5",
     image: html,
   },
   {
     id: 3,
-    name: "CSS",
+    name: "CSS3",
     image: css,
   },
   {
@@ -93,7 +93,7 @@ const skillData = [
   },
   {
     id: 8,
-    name: "Mongo",
+    name: "MongoDB",
     image: mongo,
   },
   {
