@@ -17,20 +17,30 @@ import { Projects } from "./projects";
 import resume from "../assets/resume/resume.pdf";
 import "../styling/portfolio.css";
 
+const handleClickScroll = (sectionId: string) => {
+  const element = document.getElementById(sectionId);
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
+const Navigation = () => {
+  return (
+    <div className="navigation">
+      <h2 onClick={() => handleClickScroll("home")}>Home</h2>
+      <h2>About</h2>
+      <h2>Contact</h2>
+      <h2>Resume</h2>
+    </div>
+  );
+};
+
 export const Portfolio = () => {
   const getNextPage = (path: string) => {
     window.location.pathname = path;
   };
 
-  const handleClickScroll = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   const ZoomInVar = batch(StickyIn(), FadeIn(), ZoomIn());
-  const SlideIn = batch(StickyIn(), FadeIn());
 
   return (
     <>
@@ -49,42 +59,10 @@ export const Portfolio = () => {
             <Hero />
           </Animator>
         </ScrollPage>
-        {/* Skills */}
-        <ScrollPage>
-          <Animator animation={FadeIn(50, 100)}>
-            <Skills />
-          </Animator>
-        </ScrollPage>
-        {/* Projects */}
-        <ScrollPage className="projects-page">
-          <Animator animation={FadeIn(50, 100)}>
-            <Projects />
-          </Animator>
-        </ScrollPage>
-        {/* <Projects /> */}
-        {/* Navigation */}
-        <ScrollPage className="portfolio">
-          <Animator animation={SlideIn}>
-            <h2
-              onClick={(e: React.MouseEvent<HTMLElement>) =>
-                handleClickScroll("hello")
-              }
-            >
-              Home
-            </h2>
-            <h2 onClick={() => getNextPage("/about")}>About</h2>
-            <h2 onClick={() => getNextPage("/contact")}>Contact</h2>
-            <a
-              className="resume"
-              href={resume}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <h2>Resume</h2>
-            </a>
-          </Animator>
-        </ScrollPage>
       </ScrollContainer>
+      <Skills />
+      <Projects />
+      <Navigation />
     </>
   );
 };

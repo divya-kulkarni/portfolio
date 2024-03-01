@@ -21,7 +21,6 @@ export const Skills = () => {
       {label}
     </Tooltip>
   );
-
   return (
     <div className="info-grid" id="skills">
       <Container>
