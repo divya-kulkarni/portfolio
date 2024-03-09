@@ -47,6 +47,8 @@ export const CaseStudy = () => {
               <a
                 href="https://github.com/divya-kulkarni/thenujastore"
                 className="action-btn"
+                target="_blank"
+                rel="noreferrer"
               >
                 View on Github
               </a>

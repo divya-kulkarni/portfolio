@@ -1,7 +1,7 @@
 .projects {
   padding: 4rem 1.5rem 10rem;
   margin: auto;
-  max-width: 60rem;
+  max-width: 70rem;
   overflow: hidden !important;
 
   h3 {
@@ -18,19 +18,14 @@
     margin: 0 !important;
     padding-top: 2rem;
   }
-  img,
-  .soon {
-    border: 1px solid #e9dfce;
+  img {
     aspect-ratio: 16/9;
-  }
-  .soon {
-    background-color: gray;
-    font-size: var(--fs-md);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
   }
   img:hover {
     cursor: pointer;
+  }
+  h4 {
+    margin-bottom: 1rem;
+    margin-top: clamp(0.5rem, 1rem, 4rem);
   }
 }

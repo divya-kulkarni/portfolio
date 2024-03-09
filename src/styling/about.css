@@ -9,7 +9,7 @@
 
 .about img {
   object-fit: cover;
-  height: 45em;
+  /* height: 25em; */
 }
 
 @media screen and (max-width: 35em) {

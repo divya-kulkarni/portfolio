@@ -30,7 +30,6 @@ export const Portfolio = () => {
   };
 
   const ZoomInVar = batch(StickyIn(), FadeIn(), ZoomIn());
-  const SlideIn = batch(StickyIn(), FadeIn());
 
   return (
     <>
@@ -49,41 +48,27 @@ export const Portfolio = () => {
             <Hero />
           </Animator>
         </ScrollPage>
-        {/* Skills */}
-        <ScrollPage>
-          <Animator animation={FadeIn(50, 100)}>
-            <Skills />
-          </Animator>
-        </ScrollPage>
-        {/* Projects */}
-        <ScrollPage className="projects-page">
-          <Animator animation={FadeIn(50, 100)}>
-            <Projects />
-          </Animator>
-        </ScrollPage>
-        {/* <Projects /> */}
-        {/* Navigation */}
-        <ScrollPage className="portfolio">
-          <Animator animation={SlideIn}>
-            <h2
-              onClick={(e: React.MouseEvent<HTMLElement>) =>
-                handleClickScroll("hello")
-              }
-            >
-              Home
-            </h2>
-            <h2 onClick={() => getNextPage("/about")}>About</h2>
-            <h2 onClick={() => getNextPage("/contact")}>Contact</h2>
-            <a
-              className="resume"
-              href={resume}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <h2>Resume</h2>
-            </a>
-          </Animator>
-        </ScrollPage>
+        <Skills />
+        <Projects />
+        <div className="navigation">
+          <h2
+            onClick={(e: React.MouseEvent<HTMLElement>) =>
+              handleClickScroll("hello")
+            }
+          >
+            Home
+          </h2>
+          <h2 onClick={() => getNextPage("/about")}>About</h2>
+          <h2 onClick={() => getNextPage("/contact")}>Contact</h2>
+          <a
+            className="resume"
+            href={resume}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <h2>Resume</h2>
+          </a>
+        </div>
       </ScrollContainer>
     </>
   );

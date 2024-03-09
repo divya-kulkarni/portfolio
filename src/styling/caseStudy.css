@@ -23,8 +23,6 @@
   h2:hover {
     font-family: Migra-light-italic;
     transition: 0.3s ease-in-out;
-    background-color: #e9dece;
-    color: #1e2125;
     font-size: var(--fs-l);
   }
   h3 {
