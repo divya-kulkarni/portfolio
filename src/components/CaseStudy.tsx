@@ -1,7 +1,7 @@
 import "../styling/caseStudy.css";
 import banner from "../assets/images/case-study/tns/banner1.png";
 import { NavBar } from "./navbar";
-import { Button, Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import board from "../assets/images/case-study/tns/board.mov";
 import wireframe from "../assets/images/case-study/tns/wireframe.mov";
 import branding from "../assets/images/case-study/tns/branding.png";
