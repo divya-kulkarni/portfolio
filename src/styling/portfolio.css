@@ -8,6 +8,8 @@
 
 .portfolio h2:hover {
   cursor: pointer;
+  font-style: italic !important;
+  transition: 0.3s ease-in-out;
 }
 
 .projects-page {
