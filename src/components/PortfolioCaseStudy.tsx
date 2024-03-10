@@ -79,82 +79,68 @@ export const PortfolioCaseStudy = () => {
         </ul>
         <h2>03. Design Process</h2>
         <Row>
-          <Col xs={12} md={6}>
-            <div className="wireframe-video">
-              <ul>
-                <li>
-                  <p>
-                    - The website features a minimalist design with a focus on
-                    readability and aesthetics.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    - The layout is structured to guide visitors through my
-                    portfolio seamlessly, with clear navigation and prominent
-                    project showcases.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    - Advanced CSS techniques are employed to create visually
-                    appealing animations and transitions, enhancing the user
-                    experience.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </Col>
-          <Col xs={12} md={6}>
-            <div className="wireframe-video"></div>
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={12} md={6}></Col>
-          <Col xs={12} md={6}></Col>
+          <div className="wireframe-video">
+            <ul>
+              <li>
+                <p>
+                  - The website features a minimalist design with a focus on
+                  readability and aesthetics.
+                </p>
+              </li>
+              <li>
+                <p>
+                  - The layout is structured to guide visitors through my
+                  portfolio seamlessly, with clear navigation and prominent
+                  project showcases.
+                </p>
+              </li>
+              <li>
+                <p>
+                  - Advanced CSS techniques are employed to create visually
+                  appealing animations and transitions, enhancing the user
+                  experience.
+                </p>
+              </li>
+            </ul>
+          </div>
         </Row>
 
         <h2>04. Development</h2>
         <Row>
-          <Col xs={12} md={6}>
-            <div className="wireframe-video"></div>
-          </Col>
-          <Col xs={12} md={6}>
-            <div className="wireframe-video">
-              <p>
-                The development process followed an iterative approach, with
-                regular updates and refinements based on feedback and testing.
-              </p>
-              <p>Features:</p>
-              <ul>
-                <li>
-                  <p>
-                    - I started by sketching out a general structure of how I
-                    wanted the website to look like.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    - After implementing the basic structure, I decided to add
-                    scroll-based animations to add an element of interest to the
-                    landing page.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    - I added a contact form and integrated it with EmailJS,
-                    which sends user's messages directly to my email address.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    - Then, I added tests for each component using Testing
-                    Library.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </Col>
+          <div className="wireframe-video">
+            <p>
+              The development process followed an iterative approach, with
+              regular updates and refinements based on feedback and testing.
+            </p>
+            <p>Features:</p>
+            <ul>
+              <li>
+                <p>
+                  - I started by sketching out a general structure of how I
+                  wanted the website to look like.
+                </p>
+              </li>
+              <li>
+                <p>
+                  - After implementing the basic structure, I decided to add
+                  scroll-based animations to add an element of interest to the
+                  landing page.
+                </p>
+              </li>
+              <li>
+                <p>
+                  - I added a contact form and integrated it with EmailJS, which
+                  sends user's messages directly to my email address.
+                </p>
+              </li>
+              <li>
+                <p>
+                  - Then, I added tests for each component using Testing
+                  Library.
+                </p>
+              </li>
+            </ul>
+          </div>
         </Row>
 
         <h2>05. Outcome</h2>
