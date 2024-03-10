@@ -1,4 +1,4 @@
-import "../styling/caseStudy.css";
+import "../styling/tnsCaseStudy.css";
 import banner from "../assets/images/case-study/tns/banner1.png";
 import { NavBar } from "./navbar";
 import { Col, Row } from "react-bootstrap";
@@ -8,7 +8,7 @@ import branding from "../assets/images/case-study/tns/branding.png";
 import outcome from "../assets/images/case-study/tns/outcome.mp4";
 import necklace from "../assets/images/case-study/tns/necklace-thumbnail.jpg";
 
-export const CaseStudy = () => {
+export const TnsCaseStudy = () => {
   return (
     <>
       <NavBar />
@@ -62,8 +62,7 @@ export const CaseStudy = () => {
           website. With no prior online presence, the challenge was to develop a
           platform from scratch. The challenge lay in crafting a seamless online
           platform from scratch, ensuring optimal user experience,
-          responsiveness, and intuitive navigation, factors crucial for driving
-          engagement and conversion rates.
+          responsiveness, and intuitive navigation.
         </p>
         <p>Challenges:</p>
         <ul>
