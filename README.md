@@ -4,7 +4,7 @@ My portfolio website serves as a `digital showcase` of my skills, experience, an
 
 👉 Check it out [here](https://divya-kulkarni.netlify.app/) 👈
 
-## TL;DR:
+## TL;DR
 
 ### Tech Stack
 - ReactJS
@@ -13,7 +13,7 @@ My portfolio website serves as a `digital showcase` of my skills, experience, an
 - React Bootstrap
 - react-scroll-motion
 
-### Features:
+### Features
 
 - Project list
 - Detailed case study for each project
@@ -21,28 +21,31 @@ My portfolio website serves as a `digital showcase` of my skills, experience, an
 - About Me page
 
 
-## The Process:
+## The Process
 
 - I started by sketching out a general structure of how I wanted the website to look like.
 - After implementing the basic structure, I decided to add scroll-based animations to add an element of interest to the landing page.
+- The, I added tests for each component using Testing Library.
 - Finally, I added case studies for projects, making sure I include enough visual content that conveys my message.
 - I used Git for version control, ensuring a smooth development workflow.
 
 
-## Achievements and Outcomes:
+## Achievements and Outcomes
 
 - The portfolio website has been successfully launched.
 - I will be updating this section as I get more feedback from visitors and/or employers.
 
-## What I learned:
+## What I learned
 
 - One of the main challenges faced during development was achieving a balance between creativity and simplicity in the design.
 - This was addressed through thorough research, user testing, and many design iterations.
 - Additionally, optimising performance and ensuring compatibility across different browsers and devices posed technical challenges that were overcome through meticulous testing and optimisation techniques.
 
 ## What can be improved
+- **Hosting:** I would like to host this website on a custom domain.
 - **Immersiveness:** In the next version of the portfolio, I'd like the user to experience my world in 3D.
 - **Performance:** During testing in Lighthouse, the website scored as follows:
+<img width="1433" alt="Screenshot 2024-03-10 at 4 22 46 PM" src="https://github.com/divya-kulkarni/portfolio/assets/44868354/87f1bf17-d349-465a-84d5-6c7d0b16cdff">
 I'd like to improve the scores and make it as optimised as possible, by implementing `lazy loading` and using `.webp` images.
 
 ## Installation and Execution
