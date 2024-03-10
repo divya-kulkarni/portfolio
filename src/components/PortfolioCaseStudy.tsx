@@ -177,7 +177,7 @@ export const PortfolioCaseStudy = () => {
               optimization. During testing in Lighthouse, the website scored as
               follows:
             </p>
-            <img src={performance} alt="performance" />
+            <img src={performance} alt="performance" className="performance"/>
           </li>
         </ul>
       </div>
