@@ -28,7 +28,6 @@
   height: clamp(2em, 3em, 5em);
   display: block;
   aspect-ratio: 40/48;
-  opacity: 0.8;
 }
 
 .info-grid img:hover {
