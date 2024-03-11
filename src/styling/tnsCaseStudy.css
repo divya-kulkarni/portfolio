@@ -8,7 +8,6 @@
     overflow: hidden;
   }
   h1 {
-    /* text-align: center; */
     font-size: var(--fs-l);
     font-family: Migra-light;
   }

@@ -107,57 +107,46 @@ export const PortfolioCaseStudy = () => {
 
         <h2>04. Development</h2>
         <Row>
-          <div className="wireframe-video">
-            <p>
-              The development process followed an iterative approach, with
-              regular updates and refinements based on feedback and testing.
-            </p>
-            <p>Features:</p>
-            <ul>
-              <li>
-                <p>
-                  - I started by sketching out a general structure of how I
-                  wanted the website to look like.
-                </p>
-              </li>
-              <li>
-                <p>
-                  - After implementing the basic structure, I decided to add
-                  scroll-based animations to add an element of interest to the
-                  landing page.
-                </p>
-              </li>
-              <li>
-                <p>
-                  - I added a contact form and integrated it with EmailJS, which
-                  sends user's messages directly to my email address.
-                </p>
-              </li>
-              <li>
-                <p>
-                  - Then, I added tests for each component using Testing
-                  Library.
-                </p>
-              </li>
-            </ul>
-          </div>
+          <Col xs={12} md={6}>
+            <div className="wireframe-video">
+              <p>
+                The development process followed an iterative approach, with
+                regular updates and refinements based on feedback and testing.
+              </p>
+              <p>Features:</p>
+              <ul>
+                <li>
+                  <p>
+                    - I started by sketching out a general structure of how I
+                    wanted the website to look like.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    - After implementing the basic structure, I decided to add
+                    scroll-based animations to add an element of interest to the
+                    landing page.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    - I added a contact form and integrated it with EmailJS,
+                    which sends user's messages directly to my email address.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    - Then, I added tests for each component using Testing
+                    Library.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </Col>
+          <Col xs={12} md={6}></Col>
         </Row>
 
-        <h2>05. Outcome</h2>
-        <ul>
-          <li>
-            <p>- The portfolio website has been successfully launched.</p>
-            <p>
-              Stay tuned for performance analysis as I get more feedback from
-              visitors and/or employers.
-            </p>
-          </li>
-        </ul>
-        <h2>06. Next Steps</h2>
-        <p>
-          Following is a list of all future improvements I plan to do in this
-          project:
-        </p>
+        <h2>05. Next Steps</h2>
         <ul>
           <li>
             <p>
@@ -177,7 +166,7 @@ export const PortfolioCaseStudy = () => {
               optimization. During testing in Lighthouse, the website scored as
               follows:
             </p>
-            <img src={performance} alt="performance" className="performance"/>
+            <img src={performance} alt="performance" className="performance" />
           </li>
         </ul>
       </div>

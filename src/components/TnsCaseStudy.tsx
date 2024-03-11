@@ -34,7 +34,6 @@ export const TnsCaseStudy = () => {
             <p>TypeScript</p>
             <p>CSS3</p>
             <p>NodeJS</p>
-            <p>Redux</p>
           </Col>
           <Col xs={12} md={8}>
             <h4>
@@ -114,9 +113,7 @@ export const TnsCaseStudy = () => {
                 <li>
                   <p>
                     - Interactive Elements: Integrating React Bootstrap
-                    components such as Accordion and Dropdown, I added
-                    interactive features to the website, enhancing user
-                    engagement and providing a more dynamic browsing experience.
+                    components such as Accordion and Dropdown provided a more dynamic browsing experience.
                   </p>
                 </li>
               </ul>
@@ -166,9 +163,7 @@ export const TnsCaseStudy = () => {
                 development with a focus on delivering incremental features.
                 Task prioritization was based on project requirements and user
                 feedback, allowing for flexibility and adaptability throughout
-                the development process. Regular retrospectives and feedback
-                loops enabled continuous improvement and alignment with project
-                goals.
+                the development process.
               </p>
               <p>Features:</p>
               <ul>
@@ -189,44 +184,32 @@ export const TnsCaseStudy = () => {
           </Col>
         </Row>
         <Row>
-          <Col xs={12} md={6}>
-            <div className="wireframe-video">
-              <p>
-                The frontend development phase began with wireframing and UI/UX
-                design, followed by the implementation of React components and
-                UI elements. React.js was chosen for its component-based
-                architecture and state management capabilities. Custom CSS
-                styles were applied to achieve a visually appealing and
-                responsive design consistent with thenujastore's brand identity.
-                Throughout the development process, I focused on code
-                organization and readability, leveraging React hooks for state
-                management and component lifecycle management.
-              </p>
-              <p>
-                Git version control was utilized for code management and
-                collaboration. Performance optimizations, such as code
-                minification and image compression, were implemented to improve
-                loading speed and user experience. Security measures, including
-                HTTPS encryption and input validation, were integrated to
-                protect user data and enhance overall security.
-              </p>
-            </div>
-          </Col>
-          <Col xs={12} md={6}>
-            <div className="wireframe-video">
-              <p>Reflection:</p>
-              <p>
-                As the sole developer, I encountered challenges such as managing
-                project scope and balancing feature development with time
-                constraints. Through self-directed learning and experimentation,
-                I overcame technical hurdles and gained valuable insights into
-                frontend and backend development best practices. Collaborating
-                with online communities and seeking feedback from peers helped
-                me address challenges effectively and continuously improve my
-                skills as a developer.
-              </p>
-            </div>
-          </Col>
+          <div className="wireframe-video">
+            <p>Reflection:</p>
+            <ul>
+              <li>
+                <p>
+                  - As the sole developer, I encountered challenges such as
+                  managing project scope and balancing feature development with
+                  time constraints.
+                </p>
+              </li>
+              <li>
+                <p>
+                  - Through self-directed learning and experimentation, I
+                  overcame technical hurdles and gained valuable insights into
+                  frontend and backend development best practices.
+                </p>
+              </li>
+              <li>
+                <p>
+                  - Collaborating with online communities and seeking feedback
+                  from peers helped me address challenges effectively and
+                  continuously improve my skills as a developer.
+                </p>
+              </li>
+            </ul>
+          </div>
         </Row>
         <h2>05. Outcome</h2>
         <p>
