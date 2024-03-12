@@ -4,8 +4,8 @@ import { NavBar } from "./navbar";
 import { Col, Row } from "react-bootstrap";
 import board from "../assets/images/case-study/tns/board.mov";
 import wireframe from "../assets/images/case-study/tns/wireframe.mov";
-import branding from "../assets/images/case-study/tns/branding.png";
-import outcome from "../assets/images/case-study/tns/outcome.mp4";
+import offcanvas from "../assets/images/case-study/tns/demo.mp4";
+import outcome from "../assets/images/case-study/tns/final.mp4";
 import necklace from "../assets/images/case-study/tns/necklace-thumbnail.jpg";
 
 export const TnsCaseStudy = () => {
@@ -113,7 +113,8 @@ export const TnsCaseStudy = () => {
                 <li>
                   <p>
                     - Interactive Elements: Integrating React Bootstrap
-                    components such as Accordion and Dropdown provided a more dynamic browsing experience.
+                    components such as Accordion and Dropdown provided a more
+                    dynamic browsing experience.
                   </p>
                 </li>
               </ul>
@@ -130,11 +131,12 @@ export const TnsCaseStudy = () => {
         </Row>
         <Row>
           <Col xs={12} md={6}>
-            <img
-              src={branding}
-              alt="branding"
-              className="img-fluid align-items-center"
-            />
+            <div className="wireframe-video">
+              <video width="100%" autoPlay muted loop>
+                <source src={offcanvas} type="video/mp4" />
+                Looks like your browser does not support videos.
+              </video>
+            </div>
           </Col>
           <Col xs={12} md={6}>
             <img
@@ -149,7 +151,7 @@ export const TnsCaseStudy = () => {
         <Row>
           <Col xs={12} md={6}>
             <div className="wireframe-video">
-              <video controls width="100%" autoPlay muted loop>
+              <video width="100%" autoPlay muted loop>
                 <source src={board} type="video/mp4" />
                 Looks like your browser does not support videos.
               </video>
@@ -219,7 +221,7 @@ export const TnsCaseStudy = () => {
           it might catch some waves in the future!
         </p>
         <div className="wireframe-video">
-          <video controls width="100%" autoPlay muted loop>
+          <video width="100%" autoPlay muted loop>
             <source src={outcome} type="video/mp4" />
             Looks like your browser does not support videos.
           </video>
