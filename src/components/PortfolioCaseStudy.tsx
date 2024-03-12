@@ -8,7 +8,7 @@ export const PortfolioCaseStudy = () => {
     <>
       <NavBar />
       <div className="case-container">
-        <h1>portfolio</h1>
+        <h1>Portfolio</h1>
         <div className="banner-img"></div>
         <h2>01. TL;DR</h2>
         <Row>

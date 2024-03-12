@@ -5,6 +5,7 @@
   overflow-x: hidden;
   color: #e9dfce;
 
+  --cursor-color: #e9dfce;
   --fs-xl: clamp(7rem, 9rem, 12rem);
   --fs-l: clamp(3rem, 4rem, 6rem);
   --fs-md: clamp(1.2rem, 2.5rem, 3rem);
@@ -93,6 +94,8 @@ Col {
 @font-face {
   font-family: "Migra-light";
   src: url("./assets/fonts/Migra-Extralight.otf") format("opentype");
+  src: local("Migra-light"),
+    url(./assets/fonts/Migra-Extralight.ttf) format("truetype");
 }
 
 @font-face {
