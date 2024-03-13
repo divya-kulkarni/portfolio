@@ -27,7 +27,7 @@ My portfolio website serves as a `digital showcase` of my skills, experience, an
 - I started by sketching out a general structure of how I wanted the website to look like.
 - After implementing the basic structure, I decided to add scroll-based animations to add an element of interest to the landing page.
 - I added a contact form and integrated it with EmailJS, which sends user's messages directly to my email address.
-- The, I added tests for each component using Testing Library.
+- Then, I added tests for each component using Testing Library.
 - Finally, I added case studies for projects, making sure I include enough visual content that conveys my message.
 - I used Git for version control, ensuring a smooth development workflow.
 
