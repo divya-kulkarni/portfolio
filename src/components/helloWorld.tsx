@@ -7,7 +7,7 @@ export const HelloWorld = () => {
       <h1>
         Hello <span>World</span>
       </h1>
-      <VaraText text="Alexei" />
+      <VaraText text="Alexey" />
       <h5>Scroll to explore</h5>
     </div>
   );
