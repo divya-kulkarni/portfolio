@@ -3,7 +3,7 @@ import Vara from "vara";
 
 export const VaraText = ({ text }: { text: string }) => {
   useEffect(() => {
-    var vara = new Vara(
+    new Vara(
       "#vara-container",
       "https://raw.githubusercontent.com/akzhy/Vara/master/fonts/Shadows-Into-Light/shadows-into-light.json",
       [
@@ -16,7 +16,7 @@ export const VaraText = ({ text }: { text: string }) => {
         },
       ]
     );
-  }, []);
+  });
 
   return <div id="vara-container"></div>;
 };
