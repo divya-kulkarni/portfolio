@@ -7,9 +7,13 @@
   font-size: var(--fs-md);
 }
 
-.about img {
+.my-photo {
+  height: 20em;
   object-fit: cover;
-  /* height: 25em; */
+}
+
+.grid {
+  margin: 1rem 0 !important;
 }
 
 @media screen and (max-width: 35em) {
