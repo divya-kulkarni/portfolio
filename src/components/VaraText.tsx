@@ -11,7 +11,7 @@ export const VaraText = ({ text }: { text: string }) => {
           text: text,
           fontSize: 60,
           strokeWidth: 1,
-          color: "#fff",
+          color: "#eb6336",
           textAlign: "center",
         },
       ]
