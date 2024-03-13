@@ -7,19 +7,19 @@ import { Contact } from "./components/contact";
 import { NotFound } from "./components/404";
 import { TnsCaseStudy } from "./components/TnsCaseStudy";
 import { PortfolioCaseStudy } from "./components/PortfolioCaseStudy";
-// import AnimatedCursor from "react-animated-cursor";
+import AnimatedCursor from "react-animated-cursor";
 
 function App() {
   return (
     <div className="App">
-      {/* <AnimatedCursor
+      <AnimatedCursor
         innerSize={8}
-        outerSize={35}
-        color="233, 223, 206"
-        outerAlpha={0.5}
+        outerSize={20}
+        color="235, 99, 54"
+        outerAlpha={1}
         outerStyle={{
-          border: "1px solid var(--cursor-color)",
-          backgroundColor: "none",
+          // border: "1px solid var(--cursor-color)",
+          backgroundColor: "var(--cursor-color)",
         }}
         innerScale={1}
         outerScale={3}
@@ -34,7 +34,7 @@ function App() {
           "button",
           ".link",
         ]}
-      /> */}
+      />
       <Routes>
         <Route path="/" element={<Portfolio />} />
         <Route path="/about" element={<About />} />
