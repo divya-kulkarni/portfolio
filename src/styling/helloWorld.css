@@ -19,7 +19,8 @@
 
 .hello span {
   font-family: Migra-light;
-  text-decoration: line-through #eb6336 0.5rem;
+  text-decoration-line: line-through;
+  -webkit-text-decoration-line: line-through;
 }
 
 .hello h5 {
