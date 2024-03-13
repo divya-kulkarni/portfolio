@@ -5,6 +5,7 @@ import "../styling/about.css";
 import myPhoto from "../assets/images/divya.png";
 import heart from "../assets/images/about/heart.jpg";
 import film from "../assets/images/about/film2.jpg";
+import resume from "../assets/resume/resume.pdf";
 
 export const About = () => {
   const getNextPage = (path: string) => {
@@ -18,7 +19,7 @@ export const About = () => {
         <Row>
           <Col sm={12} md={6} className="carousel">
             <Row className="grid">
-              <img src={myPhoto} alt="Divya Kulkarni" className="my-photo" />
+              <img src={myPhoto} alt="Divya Kulkarni" className="my-photo wide" />
             </Row>
             <Row className="grid">
               <Col sm={6}>
@@ -46,19 +47,21 @@ export const About = () => {
               beautiful and intuitive user experiences that leave a lasting
               impression. When I'm not coding, you can find me exploring the
               world of acrylic painting, or wandering the streets with my film
-              camera, capturing the essence of life in Japan.
+              camera, capturing the essence of life in Japan. See more on my{" "}
+              <a href="https://vsco.co/dkbose98/gallery">VSCO page</a> 📸
             </p>
             <p>
               And of course, my love affair with Mt. Fuji 🗻 continues to
               inspire me—whether it's incorporating its beauty into my artwork
-              or simply gazing at its majestic silhouette on the horizon. See
-              more on my <a href="https://vsco.co/dkbose98/gallery">VSCO</a>{" "}
-              page. 📸
+              or simply gazing at its silhouette on the horizon.
+              <br />
+              Interested in my work? <a href="/contact">Let's connect ☕️</a>
               <br />
               <br />
-              Interested in my work? Explore my portfolio and discover how I
-              merge creativity with code.👩🏻‍💻
-              <br />
+              Check out my resume{" "}
+              <a href={resume} rel="noopener noreferrer" target="_blank">
+                here.
+              </a>
               <br />
               Feel free to reach out if you'd like to discuss tech, art, or the
               perfect spots for admiring Mount Fuji.

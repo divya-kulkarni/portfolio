@@ -23,6 +23,7 @@ function App() {
         }}
         innerScale={1}
         outerScale={3}
+        trailingSpeed={12}
         clickables={[
           "a",
           'input[type="text"]',

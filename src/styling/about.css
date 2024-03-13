@@ -1,5 +1,8 @@
 .about {
   padding: 8rem 3rem;
+  a {
+    font-family: Migra-light-italic;
+  }
 }
 
 .about h2 {
@@ -10,6 +13,10 @@
 .my-photo {
   height: 20em;
   object-fit: cover;
+}
+
+.wide {
+  display: block;
 }
 
 .grid {
@@ -25,6 +32,14 @@
   }
   .about-text {
     padding: 0;
+  }
+  .wide {
+    display: none;
+  }
+
+  .my-photo {
+    margin: 1rem 0;
+    aspect-ratio: 1/1;
   }
 }
 
