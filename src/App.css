@@ -5,7 +5,7 @@
   overflow-x: hidden;
   color: #e9dfce;
 
-  --cursor-color: #e9dfce;
+  --cursor-color: #eb633681;
   --fs-xl: clamp(7rem, 9rem, 12rem);
   --fs-l: clamp(3rem, 4rem, 6rem);
   --fs-md: clamp(1.2rem, 2.5rem, 3rem);
@@ -15,7 +15,7 @@
 
 @media only screen and (min-width: 55rem) {
   * {
-    --fs-xl: clamp(15rem, 20rem, 30rem);
+    --fs-xl: clamp(15rem, 17rem, 30rem);
     --fs-l: clamp(10rem, 10rem, 18rem);
     --fs-md: clamp(3rem, 3rem, 9rem);
     --fs-sm: clamp(0.8rem, 1.3rem, 3rem);

@@ -1,5 +1,5 @@
 .hello {
-  padding: 3rem 1rem 0;
+  padding: 3rem 1rem 1rem;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -11,7 +11,7 @@
   font-family: Migra-bold;
   letter-spacing: 0.2rem;
   line-height: 1;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   display: block;
   overflow-y: hidden;
   padding-bottom: 1rem;
@@ -19,6 +19,7 @@
 
 .hello span {
   font-family: Migra-light;
+  text-decoration: line-through #eb6336 0.5rem;
 }
 
 .hello h5 {
