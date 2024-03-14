@@ -12,8 +12,8 @@ import {
 } from "react-scroll-motion";
 import { HelloWorld } from "../components/helloWorld";
 import { Hero } from "../components/hero";
-import { Skills } from "./skills";
-import { Projects } from "./projects";
+import { Skills } from "../components/skills";
+import { Projects } from "../components/projects";
 import resume from "../assets/resume/resume.pdf";
 import "../styling/portfolio.css";
 

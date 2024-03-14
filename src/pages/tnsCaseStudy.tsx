@@ -1,6 +1,6 @@
 import "../styling/tnsCaseStudy.css";
 import banner from "../assets/images/case-study/tns/banner1.webp";
-import { NavBar } from "./navbar";
+import { NavBar } from "../components/navbar";
 import { Col, Row } from "react-bootstrap";
 import board from "../assets/images/case-study/tns/board.mov";
 import wireframe from "../assets/images/case-study/tns/wireframe.mov";

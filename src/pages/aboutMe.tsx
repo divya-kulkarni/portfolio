@@ -1,5 +1,5 @@
-import { Footer } from "./footer";
-import { NavBar } from "./navbar";
+import { Footer } from "../components/footer";
+import { NavBar } from "../components/navbar";
 import { Col, Row } from "react-bootstrap";
 import "../styling/about.css";
 import myPhoto from "../assets/images/divya.webp";

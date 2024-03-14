@@ -30,13 +30,6 @@
   aspect-ratio: 40/48;
 }
 
-.info-grid img:hover {
-  cursor: pointer;
-  opacity: 1;
-  scale: 1.1;
-  transition: 0.5s ease-in-out;
-}
-
 .info-grid h4 {
   padding-bottom: 0.5 rem;
 }

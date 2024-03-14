@@ -2,8 +2,8 @@ import { Col, Form, Button } from "react-bootstrap";
 import Alert from "react-bootstrap/Alert";
 import emailjs from "emailjs-com";
 import "../styling/contact.css";
-import { NavBar } from "./navbar";
-import { Footer } from "./footer";
+import { NavBar } from "../components/navbar";
+import { Footer } from "../components/footer";
 import { useState } from "react";
 
 export const Contact = () => {

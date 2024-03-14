@@ -1,4 +1,4 @@
-import { NavBar } from "./navbar";
+import { NavBar } from "../components/navbar";
 import { Col, Row } from "react-bootstrap";
 import performance from "../assets/images/case-study/portfolio/performance.webp";
 import "../styling/portfolioCaseStudy.css";

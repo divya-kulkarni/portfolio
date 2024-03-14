@@ -1,12 +1,12 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Routes } from "react-router-dom";
-import { Portfolio } from "./components/portfolio";
-import { About } from "./components/aboutMe";
-import { Contact } from "./components/contact";
-import { NotFound } from "./components/404";
-import { TnsCaseStudy } from "./components/TnsCaseStudy";
-import { PortfolioCaseStudy } from "./components/PortfolioCaseStudy";
+import { Portfolio } from "./pages/portfolio";
+import { About } from "./pages/aboutMe";
+import { Contact } from "./pages/contact";
+import { NotFound } from "./pages/404";
+import { TnsCaseStudy } from "./pages/tnsCaseStudy";
+import { PortfolioCaseStudy } from "./pages/portfolioCaseStudy";
 
 function App() {
   return (
