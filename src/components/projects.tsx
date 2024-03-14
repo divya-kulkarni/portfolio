@@ -1,8 +1,8 @@
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import "../styling/projects.css";
-import tns from "../assets/images/case-study/tns/mockups-tns.png";
-import portfolio from "../assets/images/portfolio-thumbnail.png";
+import tns from "../assets/images/case-study/tns/mockups-tns.webp";
+import portfolio from "../assets/images/portfolio-thumbnail.webp";
 import soon from "../assets/images/case-study/tns/soon.mp4";
 
 export const Projects = () => {

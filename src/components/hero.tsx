@@ -9,8 +9,7 @@ export const Hero = () => {
       <span className="hero-name hero-text">{`<b>I'm Divya Kulkarni</b>`}</span>
       <h1>{`Front-End Web Developer`}</h1>
       <p className="hero-text">
-        Creative professional specializing in responsive design and frontend
-        development for an enhanced user experience.
+      A design ninja, slicing through screens with responsive magic and frontend flair.
       </p>
       <div className="hero-action">
         <a
