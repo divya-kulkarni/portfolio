@@ -3,6 +3,9 @@ import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 
+import emailjs from "emailjs-com";
+emailjs.init(process.env.REACT_APP_EMAIL_KEY!);
+
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
