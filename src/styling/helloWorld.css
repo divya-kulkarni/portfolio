@@ -11,7 +11,7 @@
   font-family: Migra-bold;
   letter-spacing: 0.2rem;
   line-height: 1;
-  /* margin-bottom: 1rem; */
+  margin-bottom: 1rem;
   display: block;
   overflow-y: hidden;
   padding-bottom: 1rem;
@@ -19,8 +19,6 @@
 
 .hello span {
   font-family: Migra-light;
-  text-decoration-line: line-through;
-  -webkit-text-decoration-line: line-through;
 }
 
 .hello h5 {

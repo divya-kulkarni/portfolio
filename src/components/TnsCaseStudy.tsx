@@ -1,12 +1,12 @@
 import "../styling/tnsCaseStudy.css";
-import banner from "../assets/images/case-study/tns/banner1.png";
+import banner from "../assets/images/case-study/tns/banner1.webp";
 import { NavBar } from "./navbar";
 import { Col, Row } from "react-bootstrap";
 import board from "../assets/images/case-study/tns/board.mov";
 import wireframe from "../assets/images/case-study/tns/wireframe.mov";
 import offcanvas from "../assets/images/case-study/tns/demo.mp4";
 import outcome from "../assets/images/case-study/tns/final.mp4";
-import necklace from "../assets/images/case-study/tns/necklace-thumbnail.jpg";
+import necklace from "../assets/images/case-study/tns/necklace-thumbnail.webp";
 
 export const TnsCaseStudy = () => {
   return (

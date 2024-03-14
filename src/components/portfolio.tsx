@@ -70,6 +70,9 @@ export const Portfolio = () => {
           </a>
         </div>
       </ScrollContainer>
+      {/* <div className="bubble-container">
+        <h2 className="bubble">Damn you're good</h2>
+      </div> */}
     </>
   );
 };

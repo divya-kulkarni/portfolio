@@ -2,9 +2,9 @@ import { Footer } from "./footer";
 import { NavBar } from "./navbar";
 import { Col, Row } from "react-bootstrap";
 import "../styling/about.css";
-import myPhoto from "../assets/images/divya.png";
-import heart from "../assets/images/about/heart.jpg";
-import film from "../assets/images/about/film2.jpg";
+import myPhoto from "../assets/images/divya.webp";
+import heart from "../assets/images/about/heart.webp";
+import knife from "../assets/images/about/knife.webp";
 import resume from "../assets/resume/resume.pdf";
 
 export const About = () => {
@@ -19,7 +19,11 @@ export const About = () => {
         <Row>
           <Col sm={12} md={6} className="carousel">
             <Row className="grid">
-              <img src={myPhoto} alt="Divya Kulkarni" className="my-photo wide" />
+              <img
+                src={myPhoto}
+                alt="Divya Kulkarni"
+                className="my-photo wide"
+              />
             </Row>
             <Row className="grid">
               <Col sm={6}>
@@ -30,7 +34,11 @@ export const About = () => {
                 />
               </Col>
               <Col sm={6}>
-                <img src={film} alt="A boat on a beach" className="my-photo" />
+                <img
+                  src={knife}
+                  alt="A knife with a womans eyes"
+                  className="my-photo"
+                />
               </Col>
             </Row>
           </Col>

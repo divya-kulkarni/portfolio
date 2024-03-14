@@ -1,6 +1,6 @@
 import { NavBar } from "./navbar";
 import { Col, Row } from "react-bootstrap";
-import performance from "../assets/images/case-study/portfolio/performance.png";
+import performance from "../assets/images/case-study/portfolio/performance.webp";
 import "../styling/portfolioCaseStudy.css";
 
 export const PortfolioCaseStudy = () => {
