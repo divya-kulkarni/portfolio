@@ -12,26 +12,30 @@ export const Contact = () => {
   const successMessage = "Message sent! 🚀";
   const [successAlert, setSuccessAlert] = useState(false);
   const [errorAlert, setErrorAlert] = useState(false);
-  const sendEmail = (e: any) => {
+  const emailKey = process.env.REACT_APP_EMAIL_KEY;
+  const emailService = process.env.REACT_APP_EMAIL_SERVICE;
+  const emailTemplate = process.env.REACT_APP_EMAIL_TEMPLATE;
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_zrb63s4",
-        "template_cnfx0df",
-        e.target,
-        "07ZI4jhivAYTiqsE-"
+        emailService!,
+        emailTemplate!,
+        e.target as HTMLFormElement,
+        emailKey!
       )
       .then(
         (result: { text: any }) => {
           console.log("Email sent successfully!", result.text);
           setSuccessAlert(true);
-          e.target.reset();
+          (e.target as HTMLFormElement).reset();
         },
         (error: { text: any }) => {
           console.log("Error sending email:", error.text);
           setErrorAlert(true);
-          e.target.reset();
+          (e.target as HTMLFormElement).reset();
         }
       );
   };
