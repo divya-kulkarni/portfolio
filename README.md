@@ -33,7 +33,7 @@ portfolio/
 ├── src/
 │   ├── components/
 │   ├── pages/
-│     ├── styling/
+│   ├── styling/
 │   └── tests/
 │
 ├── .env
