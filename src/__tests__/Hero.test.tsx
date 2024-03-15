@@ -14,12 +14,12 @@ test("renders say hi", async () => {
   expect(testText).toBeInTheDocument();
 
   const originalLocation = window.location;
-  delete (window as any).location;
+  if (window?.location) {
+    delete (window as any).location;
+  }
   (window as any).location = { assign: jest.fn() };
   userEvent.click(testText);
-  await (() => {
-    expect((window.location as any).assign).toHaveBeenCalledWith("/contact");
-  });
+  expect((window.location as any).assign).toHaveBeenCalledWith("/contact");
 
   window.location = originalLocation;
 });

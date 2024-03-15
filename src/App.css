@@ -88,6 +88,7 @@ Col {
 @font-face {
   font-family: "Migra-bold";
   src: url("./assets/fonts/Migra-Extrabold.otf") format("opentype");
+  font-display: swap;
 }
 
 @font-face {
@@ -95,14 +96,17 @@ Col {
   src: url("./assets/fonts/Migra-Extralight.otf") format("opentype");
   src: local("Migra-light"),
     url(./assets/fonts/Migra-Extralight.ttf) format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Migra-bold-italic";
   src: url("./assets/fonts/MigraItalic-ExtraboldItalic.otf") format("opentype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Migra-light-italic";
   src: url("./assets/fonts/MigraItalic-ExtralightItalic.otf") format("opentype");
+  font-display: swap;
 }

@@ -2,8 +2,8 @@ import { Col, Form, Button } from "react-bootstrap";
 import Alert from "react-bootstrap/Alert";
 import emailjs from "emailjs-com";
 import "../styling/contact.css";
-import { NavBar } from "./navbar";
-import { Footer } from "./footer";
+import { NavBar } from "../components/navbar";
+import { Footer } from "../components/footer";
 import { useState } from "react";
 
 export const Contact = () => {
@@ -17,20 +17,25 @@ export const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_zrb63s4",
-        "template_cnfx0df",
+        process.env.REACT_APP_EMAIL_SERVICE!,
+        process.env.REACT_APP_EMAIL_TEMPLATE!,
         e.target,
-        "07ZI4jhivAYTiqsE-"
+        process.env.REACT_APP_EMAIL_KEY
       )
       .then(
         (result: { text: any }) => {
           console.log("Email sent successfully!", result.text);
           setSuccessAlert(true);
+          setErrorAlert(false);
           e.target.reset();
         },
         (error: { text: any }) => {
           console.log("Error sending email:", error.text);
+          console.log(process.env.REACT_APP_EMAIL_KEY);
+          console.log(process.env.REACT_APP_EMAIL_SERVICE);
+          console.log(process.env.REACT_APP_EMAIL_TEMPLATE);
           setErrorAlert(true);
+          setSuccessAlert(false);
           e.target.reset();
         }
       );
