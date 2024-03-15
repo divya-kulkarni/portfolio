@@ -7,8 +7,11 @@ import { Contact } from "./pages/contact";
 import { NotFound } from "./pages/404";
 import { TnsCaseStudy } from "./pages/tnsCaseStudy";
 import { PortfolioCaseStudy } from "./pages/portfolioCaseStudy";
+import { useEffect } from "react";
+import emailjs from "emailjs-com";
 
 function App() {
+  useEffect(() => emailjs.init(process.env.REACT_APP_EMAIL_KEY!), []);
   return (
     <div className="App">
       <Routes>
