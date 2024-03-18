@@ -1,0 +1,57 @@
+.experience {
+  h1 {
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: -3px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 100px 0;
+  }
+
+  li {
+    font-size: var(--fs-sm);
+    line-height: 1.5 !important;
+  }
+
+  h2 {
+    margin: 0;
+    color: rgb(231, 106, 61);
+    left: 70%;
+    font-size: var(--fs-md);
+    line-height: 1.2;
+    position: absolute;
+    font-family: Migra-bold;
+  }
+
+  h3 {
+    font-family: Migra-bold;
+    font-size: var(--fs-md);
+  }
+
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    scroll-snap-align: center;
+    perspective: 500px;
+  }
+
+  section > div {
+    width: 70%;
+    position: relative;
+    background: var(--white);
+    height: auto; /* Change height to auto */
+    max-height: calc(
+      100vh - 200px
+    ); /* Limit maximum height to avoid excessive expansion */
+    overflow: hidden; /* Hide overflow to prevent scrollbars */
+  }
+}
+
+@media screen and (max-width: 45rem) {
+  h2 {
+    font-size: var(--fs-sm) !important;
+  }
+}
