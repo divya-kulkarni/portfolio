@@ -1,6 +1,6 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import "../styling/navbar.css";
-import resume from "../assets/resume/resume.pdf";
+import resume from "../assets/resume/divya-resume.pdf";
 
 export const NavBar = () => {
   const getNextPage = (path: string) => {
