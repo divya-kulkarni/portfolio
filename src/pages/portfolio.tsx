@@ -53,15 +53,21 @@ export const Portfolio = () => {
         <Experience />
         <Projects />
         <div className="navigation">
-          <h2
-            onClick={(e: React.MouseEvent<HTMLElement>) =>
-              handleClickScroll("hello")
-            }
-          >
-            Home
-          </h2>
-          <h2 onClick={() => getNextPage("/about")}>About</h2>
-          <h2 onClick={() => getNextPage("/contact")}>Contact</h2>
+          <a href="">
+            <h2
+              onClick={(e: React.MouseEvent<HTMLElement>) =>
+                handleClickScroll("hello")
+              }
+            >
+              Home
+            </h2>
+          </a>
+          <a href="/about">
+            <h2>About</h2>
+          </a>
+          <a href="/contact">
+            <h2 onClick={() => getNextPage("/contact")}>Contact</h2>
+          </a>
           <a
             className="resume"
             href={resume}
