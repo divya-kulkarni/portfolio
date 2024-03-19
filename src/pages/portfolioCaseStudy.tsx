@@ -24,7 +24,6 @@ export const PortfolioCaseStudy = () => {
             <p>CSS3</p>
             <p>NodeJS</p>
             <p>React Bootstrap</p>
-            <p>Framer Motion</p>
             <p>react-scroll-motion</p>
           </Col>
           <Col xs={12} md={8}>
