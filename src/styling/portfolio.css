@@ -1,5 +1,4 @@
 .portfolio h2:hover {
-  cursor: pointer;
   font-style: italic !important;
   transition: 0.5s ease-in-out;
 }
@@ -49,7 +48,6 @@
   h2:hover {
     font-family: Migra-bold-italic;
     transition: 0.3s ease-in-out;
-    cursor: pointer;
   }
   a {
     text-decoration: none;

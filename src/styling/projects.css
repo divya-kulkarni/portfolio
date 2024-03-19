@@ -21,9 +21,6 @@
   img {
     aspect-ratio: 16/9;
   }
-  img:hover {
-    cursor: pointer;
-  }
   h4 {
     margin-bottom: 1rem;
     margin-top: clamp(0.5rem, 1rem, 4rem);
