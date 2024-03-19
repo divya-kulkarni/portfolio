@@ -1,11 +1,13 @@
 .experience {
-  h1 {
-    font-size: 56px;
-    font-weight: 700;
-    letter-spacing: -3px;
-    line-height: 1.2;
+  max-width: 70rem;
+  padding: 4rem 1.5rem 10rem;
+  margin: auto;
+  h3 {
     text-align: center;
-    margin: 100px 0;
+    font-size: var(--fs-md);
+    font-family: Migra-light;
+    border-bottom: 1px solid #e9dfce;
+    padding-bottom: 1rem;
   }
 
   li {
@@ -13,40 +15,39 @@
     line-height: 1.5 !important;
   }
 
-  h2 {
-    margin: 0;
-    color: rgb(231, 106, 61);
-    left: 70%;
-    font-size: var(--fs-md);
-    line-height: 1.2;
-    position: absolute;
-    font-family: Migra-bold;
+  span {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
   }
 
-  h3 {
-    font-family: Migra-bold;
+  h2 {
+    margin: 0;
+    left: 70%;
+    line-height: 1.2;
+    position: absolute;
+  }
+
+  h4 {
     font-size: var(--fs-md);
+    color: rgb(231, 106, 61);
+    font-family: Migra-light;
   }
 
   section {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     scroll-snap-align: center;
-    perspective: 500px;
+    height: 100vh;
   }
 
   section > div {
-    width: 70%;
+    margin: 1rem;
+    width: 80%;
     position: relative;
-    background: var(--white);
-    height: auto; /* Change height to auto */
-    max-height: calc(
-      100vh - 200px
-    ); /* Limit maximum height to avoid excessive expansion */
-    overflow: hidden; /* Hide overflow to prevent scrollbars */
+    overflow: hidden !important;
   }
 }
 
