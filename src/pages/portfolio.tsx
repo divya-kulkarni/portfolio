@@ -14,8 +14,9 @@ import { HelloWorld } from "../components/helloWorld";
 import { Hero } from "../components/hero";
 import { Skills } from "../components/skills";
 import { Projects } from "../components/projects";
-import resume from "../assets/resume/resume.pdf";
+import resume from "../assets/resume/divya-resume.pdf";
 import "../styling/portfolio.css";
+import { Experience } from "src/components/experience";
 
 export const Portfolio = () => {
   const getNextPage = (path: string) => {
@@ -49,6 +50,7 @@ export const Portfolio = () => {
           </Animator>
         </ScrollPage>
         <Skills />
+        <Experience />
         <Projects />
         <div className="navigation">
           <h2

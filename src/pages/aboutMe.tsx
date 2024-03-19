@@ -5,7 +5,7 @@ import "../styling/about.css";
 import myPhoto from "../assets/images/divya.webp";
 import heart from "../assets/images/about/heart.webp";
 import knife from "../assets/images/about/knife.webp";
-import resume from "../assets/resume/resume.pdf";
+import resume from "../assets/resume/divya-resume.pdf";
 
 export const About = () => {
   const getNextPage = (path: string) => {
