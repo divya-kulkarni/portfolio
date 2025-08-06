@@ -47,16 +47,14 @@ export const About = () => {
             <p>
               Hey there, welcome to my corner of the internet! 🦄
               <br />
-              <br /> I'm a full stack developer from India 🇮🇳 based in the
-              electric city of Tokyo, Japan. 🇯🇵
+              <br /> I'm a full stack developer from India based in Eindhoven, Netherlands.
               <br />
               <br />
               With a keen interest in frontend development, I love crafting
               beautiful and intuitive user experiences that leave a lasting
               impression. When I'm not coding, you can find me exploring the
               world of acrylic painting, or wandering the streets with my film
-              camera, capturing the essence of life in Japan. See more on my{" "}
-              <a href="https://vsco.co/dkbose98/gallery">VSCO page</a> 📸
+              camera, capturing the essence of life in Japan and now in the Netherlands.
             </p>
             <p>
               And of course, my love affair with Mt. Fuji 🗻 continues to
